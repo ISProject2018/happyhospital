@@ -42,32 +42,11 @@
 <body id="body">
 
   <!--==========================
-    Top Bar
-  ============================-->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i>
-        <a href="mailto:info@happyhospital.org">info@happyhospital.org</a>
-        <i class="fa fa-phone"></i> 02-973-2236-7 
-      </div>
-      <div class="social-links float-right">
-        <a href="https://www.facebook.com/happyhospitalMR/" class="facebook" target="_blank">
-          <i class="fa fa-facebook"> : โครงการโรงพยาบาลมีสุข มูลนิธิกระจกเงา </i>
-        </a>
-        <a href="#">
-          <img src="img/line.svg" alt="" height="20" width="20"> : @happyhospitalMR
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!--==========================
-    Header
+   Top Bar AND Header
   ============================-->
 
   <?php include "php/header.php";?>
-  
+
   <!--==========================
     Intro Section
   ============================-->
@@ -502,24 +481,7 @@
   <!--==========================
     Footer
   ============================-->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright
-        <strong>Reveal</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
-        -->
-        Designed by
-        <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer>
+  <?php include "php/footer.php"?>
   <!-- #footer -->
 
   <a href="#" class="back-to-top">

@@ -1,3 +1,21 @@
+<section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+        <i class="fa fa-envelope-o"></i>
+        <a href="mailto:info@happyhospital.org">info@happyhospital.org</a>
+        <i class="fa fa-phone"></i> 02-973-2236-7 
+      </div>
+      <div class="social-links float-right">
+        <a href="https://www.facebook.com/happyhospitalMR/" class="facebook" target="_blank">
+          <i class="fa fa-facebook"> : โครงการโรงพยาบาลมีสุข มูลนิธิกระจกเงา </i>
+        </a>
+        <a href="#">
+          <img src="img/line.svg" alt="" height="20" width="20"> : @happyhospitalMR
+        </a>
+      </div>
+    </div>
+</section>
+
 <header id="header">
     <div class="container">
 
