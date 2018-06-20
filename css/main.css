@@ -1,39 +1,4 @@
 
-
-/*--------------------------------------------------------------
-# Sections
---------------------------------------------------------------*/
-/* Sections Header
---------------------------------*/
-.section-header {
-  margin-bottom: 30px;
-}
-
-.section-header h2 {
-  font-size: 32px;
-  color: #0c2e8a;
-  text-transform: uppercase;
-  font-weight: 700;
-  position: relative;
-  padding-bottom: 20px;
-}
-
-.section-header h2::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #50d8af;
-  bottom: 0;
-  left: 0;
-}
-
-.section-header p {
-  padding: 0;
-  margin: 0;
-}
-
 /* volunteer Section
 --------------------------------*/
 #volunteer {
