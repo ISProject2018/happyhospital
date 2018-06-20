@@ -393,9 +393,9 @@
         </div>
       </div>
       <div class="container">
-        <div id="portfolio-carousel" class="owl-carousel">
-          <div class="item" style="background-image: url('img/portfolio/_DSC7665-01.jpeg');"></div>
-          <div class="item" style="background-image: url('img/portfolio/_DSC7650-01.jpeg');"></div>
+      <div class="owl-carousel portfolio-carousel">
+          <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
+          <img src="img/portfolio/_DSC7650-01.jpeg" alt="">
         </div>
       </div>
 

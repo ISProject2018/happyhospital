@@ -112,9 +112,9 @@ jQuery(document).ready(function( $ ) {
   });
 
 // portfolio carousel (uses the Owl Carousel library)
-  $("#portfolio-carousel").owlCarousel({
+  $(".portfolio-carousel").owlCarousel({
     autoplay: true,
-    dots: false,
+    dots: true,
     loop: true,
     animateOut: 'fadeOut',
     items: 1
