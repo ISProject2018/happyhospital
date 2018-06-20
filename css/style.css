@@ -7,15 +7,26 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'noto_sans_thairegular';
+  src: url('../lib/font/notosansthai-regular-webfont.woff2') format('woff2'),
+       url('../lib/font/notosansthai-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body {
     background: #fff;
     color: #444;
-    font-family: "Open Sans", sans-serif;
+    font-family: "noto_sans_thairegular", sans-serif;
   }
   
   a {
     color: #50d8af;
     transition: 0.5s;
+    font-family: "Itim", sans-serif;
   }
   
   a:hover, a:active, a:focus {
@@ -30,7 +41,7 @@ body {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Itim", sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
@@ -50,7 +61,7 @@ body {
     transition: background 0.5s;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 990px) {
     .back-to-top {
       bottom: 15px;
     }
@@ -130,7 +141,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
-    font-family: "Montserrat", sans-serif;
+    font-family: "noto_sans_thairegular", sans-serif;
     font-weight: 700;
   }
   
@@ -149,7 +160,7 @@ body {
     margin: 0;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 990px) {
     #header {
       padding: 20px 0;
       height: 74px;
@@ -206,7 +217,7 @@ body {
 }
 
 #intro .intro-content .btn-get-started, #intro .intro-content .btn-projects {
-  font-family: "Raleway", sans-serif;
+  font-family: "noto_sans_thairegular", sans-serif;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -330,7 +341,7 @@ body {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   #nav-menu-container {
     display: none;
   }
@@ -342,9 +353,10 @@ body {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
+  font-family: "noto_sans_thairegular", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+
   outline: none;
 }
 
@@ -404,7 +416,7 @@ body {
   color: #555;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -529,30 +541,3 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  background: #f2f5f8;
-  padding: 0 0 30px 0;
-  font-size: 14px;
-}
-
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
-
-#footer .credits {
-  text-align: center;
-  font-size: 13px;
-  color: #555;
-}
-
-#footer .credits a {
-  color: #0c2e8a;
-}
-
-#footer .container span {
-  color: #0c2e8a;
-}
