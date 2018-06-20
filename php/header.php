@@ -21,7 +21,7 @@
 
       <div id="logo" class="pull-left">
         <h1>
-          <a href="#body" class="scrollto">Reve<span>al</span></a>
+          <a href="#body" class="scrollto"><i class="fa fa-plus-square"></i> รพ.<span>มีสุข</span></a>
         </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
