@@ -65,79 +65,9 @@
   <!--==========================
     Header
   ============================-->
-  <header id="header">
-    <div class="container">
 
-      <div id="logo" class="pull-left">
-        <h1>
-          <a href="#body" class="scrollto">Reve<span>al</span></a>
-        </h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active">
-            <a href="index.php">หน้าหลัก</a>
-          </li>
-          <li>
-            <a href="#about">เกี่ยวกับเรา</a>
-          </li>
-          <li class="menu-has-children">
-            <a href="">อาสาสมัคร</a>
-            <ul>
-              <li>
-                <a href="#">คุณสมบัติ</a>
-              </li>
-              <li>
-                <a href="#">กิจกรรมอาสาสมัคร ใน รพ.</a>
-              </li>
-              <li>
-                <a href="#">กลุ่มเป้าหมาย</a>
-              </li>
-              <li>
-                <a href="#">การเตรียมความพร้อม</a>
-              </li>
-              <li>
-                <a href="#">FAQ</a>
-              </li>
-              <li>
-                <a href="#">ขั้นตอนเป็นอาสาสมัคร ใน รพ.</a>
-              </li>
-              <li>
-                <a href="#">ดาวน์โหลดใบสมัคร</a>
-              </li>
-            </ul>
-          </li>
-          <li class="menu-has-children">
-            <a href="">ชุดความรู้อาสาสมัครใน รพ.</a>
-            <ul>
-              <li>
-                <a href="#">คู่มืออาสาสมัคร ใน รพ.</a>
-              </li>
-              <li>
-                <a href="#">การเตียมความพร้อมเบื้องต้น สำหรับอาสาสมัครในโรงพยาบาล</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#portfolio">ภาพ/วีดีโอ กิจกรรม</a>
-          </li>
-          <li>
-            <a href="#team">ประชาสัมพันธ์</a>
-          </li>
-          <li>
-            <a href="#contact">บทความ /เกร็ดความรู้ </a>
-          </li>
-          
-        </ul>
-      </nav>
-      <!-- #nav-menu-container -->
-    </div>
-  </header>
-  <!-- #header -->
-
+  <?php include "php/header.php";?>
+  
   <!--==========================
     Intro Section
   ============================-->
@@ -480,123 +410,19 @@
     <section id="portfolio" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Our Portfolio</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export
-            quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim
-            illum fore</p>
+          <h2>ภาพกิจกรรม</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div id="portfolio-carousel" class="owl-carousel">
+          <div class="item" style="background-image: url('img/portfolio/_DSC7665-01.jpeg');"></div>
+          <div class="item" style="background-image: url('img/portfolio/_DSC7650-01.jpeg');"></div>
         </div>
       </div>
 
-      <div class="container-fluid">
-        <div class="row no-gutters">
 
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/1.jpg" class="portfolio-popup">
-                <img src="img/portfolio/1.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 1</h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
 
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/2.jpg" class="portfolio-popup">
-                <img src="img/portfolio/2.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 2</h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/3.jpg" class="portfolio-popup">
-                <img src="img/portfolio/3.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 3</h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/4.jpg" class="portfolio-popup">
-                <img src="img/portfolio/4.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 4</h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/5.jpg" class="portfolio-popup">
-                <img src="img/portfolio/5.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 5</h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/6.jpg" class="portfolio-popup">
-                <img src="img/portfolio/6.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 6</h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/7.jpg" class="portfolio-popup">
-                <img src="img/portfolio/7.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 7</h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/8.jpg" class="portfolio-popup">
-                <img src="img/portfolio/8.jpg" alt="">
-                <div class="portfolio-overlay">
-                  <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 8</h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
+ 
     </section>
     <!-- #portfolio -->
 
@@ -606,10 +432,7 @@
     <section id="testimonials" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Testimonials</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export
-            quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim
-            illum fore</p>
+          <h2>ความรู้สึกของคนในโครงการ</h2>
         </div>
         <div class="owl-carousel testimonials-carousel">
 

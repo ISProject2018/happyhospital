@@ -25,6 +25,7 @@ jQuery(document).ready(function( $ ) {
     items: 1
   });
 
+
   // Initiate the wowjs animation library
   new WOW().init();
 
@@ -110,24 +111,15 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
-
-  // Porfolio - uses the magnific popup jQuery plugin
-  $('.portfolio-popup').magnificPopup({
-    type: 'image',
-    removalDelay: 300,
-    mainClass: 'mfp-fade',
-    gallery: {
-      enabled: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300,
-      easing: 'ease-in-out',
-      opener: function(openerElement) {
-        return openerElement.is('img') ? openerElement : openerElement.find('img');
-      }
-    }
+// portfolio carousel (uses the Owl Carousel library)
+  $("#portfolio-carousel").owlCarousel({
+    autoplay: true,
+    dots: false,
+    loop: true,
+    animateOut: 'fadeOut',
+    items: 1
   });
+
 
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
