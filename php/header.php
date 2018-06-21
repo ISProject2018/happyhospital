@@ -21,7 +21,7 @@
 
       <div id="logo" class="pull-left">
         <h1>
-          <a href="#body" class="scrollto"><i class="fa fa-plus-square"></i> รพ.<span>มีสุข</span></a>
+          <a href="#body" class="scrollto"><img src="img/logo.jpg" alt="" height="50"></a>
         </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
@@ -36,10 +36,10 @@
             <a href="#about">เกี่ยวกับเรา</a>
           </li>
           <li class="menu-has-children">
-            <a href="">อาสาสมัคร</a>
+            <a href="volunteer.php">อาสาสมัคร</a>
             <ul>
               <li>
-                <a href="#">คุณสมบัติ</a>
+                <a href="volunteer.php#property">คุณสมบัติ</a>
               </li>
               <li>
                 <a href="#">กิจกรรมอาสาสมัคร ใน รพ.</a>

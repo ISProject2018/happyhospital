@@ -308,7 +308,7 @@
             </tr>
             <tr>
               <td colspan="3">
-                <p class="pt-3"> <strong>สอบถามรายละเอียดเพิ่มเติม :</strong> เจ้าหน้าที่โครงการ : นางสาวจามจุรี แซ่ซื้อ (มินนี่) <span> l </span> E-mail : <span> info@happyhospital.org </span> <span> l </span>โทร: <span>02- 973-2236 ต่อ 103, 085-1966102</span> </p>
+                <p class="pt-3"> <strong>สอบถามรายละเอียดเพิ่มเติม :</strong> เจ้าหน้าที่โครงการ : นางสาวจามจุรี แซ่ซื้อ (มินนี่) <span> l </span> E-mail : <span> info@happyhospital.org </span> <span> l </span>โทร: <span>02- 973-2236 </span> ต่อ <span> 103 </span>,<span> 085-1966102</span> </p>
               </td>
             </tr>
           </table>

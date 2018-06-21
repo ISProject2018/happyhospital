@@ -27,7 +27,7 @@
 }
 
 #property .content h2 {
-  color: #0c2e8a;
+  color: #0171b9;
   font-weight: 700;
   font-size: 36px;
  
@@ -52,7 +52,7 @@
 #property .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #50d8af;
+  color: #df176f;
 }
 
 #property .content ul {
@@ -127,7 +127,7 @@
 /* downloadform
 --------------------------------*/
 #downloadform {
-  background: #081e5b;
+  background: #0171b9;
   background-size: cover;
   padding: 40px 0;
 }
@@ -165,7 +165,7 @@
 }
 
 #downloadform .cta-btn:hover {
-  background: #50d8af;
-  border: 3px solid #50d8af;
+  background: #df176f;
+  border: 3px solid #df176f;
 }
 

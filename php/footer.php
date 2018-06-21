@@ -3,9 +3,7 @@
   ============================-->
   <footer id="footer">
     <div class="container">
-      <div class="row">
-
-    <div class="col-md-9">
+  
       <div class="copyright">
         <strong>มูลนิธิกระจกเงา</strong> เลขที่ 191 ซอยวิภาวดี 62 ถนนวิภาวดีรังสิต แขวงตลาดบางเขน เขตหลักสี่
         กรุงเทพมหานคร 10210 <br> l 
@@ -18,13 +16,8 @@
     </div>
   </div>
 
-  <div class="col-md-3">
-      <div class="copyright">
-          <img src="img/logo.jpg" alt="" height="80">
-        </div>
   
-  
-  </div>
+
    
       
 
