@@ -90,16 +90,67 @@
 
             <ul>
               <li>
-                <i class="ion-android-checkmark-circle"></i> กลุ่มคนที่เข้าไปสร้างความสุขให้กับผู้ป่วย ญาติผู้ป่วยและผู้ที่เกี่ยวข้องในโรงพยาบาล ด้วยหัวใจความเป็นมนุษย์</li>
+                <i class="ion-android-checkmark-circle"></i> คุณสมบัติ</li>
               <li>
-                <i class="ion-android-checkmark-circle"></i> เข้าไปสร้างความสุขโดยไม่เป็นภาระต่อบุคลากรทางแพทย์</li>
+                <i class="ion-android-checkmark-circle"></i> กิจกรรมอาสาสมัคร ใน รพ.</li>
               <li>
-                <i class="ion-android-checkmark-circle"></i> เป็นตัวเชื่อมโยงการแบ่งปันความสุขจากคนอื่นๆในสังคมสู่พื้นที่โรงพยาบาล</li>
+                <i class="ion-android-checkmark-circle"></i> กลุ่มเป้าหมาย</li>
+              <li>
+                <i class="ion-android-checkmark-circle"></i> การเตรียมความพร้อม</li>
+              <li>
+                <i class="ion-android-checkmark-circle"></i> ขั้นตอนเป็นอาสาสมัคร ใน รพ.</li>
+              <li>
+                <i class="ion-android-checkmark-circle"></i> ดาวน์โหลดใบสมัคร</li>
             </ul>
             <div class="float-right">
               <a class="btn-readmore" href="">อ่านเพิ่มเติม</a>
             </div>
           </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- #volunteer -->
+
+    <!--==========================
+      activity Section
+    ============================-->
+    <section id="activity" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>ตารางกิจกรรม วัน - เวลา ที่ลงพื้นที่</h2>
+          <p style="text-indent: 30px">หากอาสาสมัคร มีความชำนาญในการทำกิจกรรม อส. ใน รพ. สามารถลงพื้นที่ได้ที่ </p>
+        </div>
+        <div>
+          <table class="table table-respontive">
+            <tr>
+              <th>สถานที่ทำงาน</th>
+              <th class="text-center">วัน</th>
+              <th class="text-center">เวลา</th>
+            </tr>
+            <tr>
+              <td>โรงพยาบาลรามาธิบดี</td>
+              <td class="text-center">ทุกวันพุธ</td>
+              <td class="text-center">13.00 - 15.00 น.</td>
+            </tr>
+            <tr>
+              <td>โรงพยาบาลพระมงกฏเกล้า</td>
+              <td class="text-center">ทุกวันศุกร์</td>
+              <td class="text-center">09.00 - 12.00 น.</td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <p class="pt-3">
+                  <strong>สอบถามรายละเอียดเพิ่มเติม :</strong> เจ้าหน้าที่โครงการ : นางสาวจามจุรี แซ่ซื้อ (มินนี่)
+                  <span> l </span> E-mail :
+                  <span> info@happyhospital.org </span>
+                  <span> l </span>โทร:
+                  <span>02- 973-2236 </span>ต่อ 
+                  <span>103, 085-1966102</span>
+                </p>
+              </td>
+            </tr>
+          </table>
         </div>
 
       </div>
@@ -150,213 +201,124 @@
     <!-- #services -->
 
     <!--==========================
-      Relation Section
+      Relation and Article Section
     ============================-->
-    <section id="relation">
-      <div class="container">
-        <div class="section-header">
-          <h2>ประชาสัมพันธ์</h2>
-        </div>
-
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                  <!-- Post Thumbnail -->
-                  <div class="post-thumbnail">
-                    <img src="img/b1.jpg" alt="">
-                  </div>
-                  <!-- Post Content -->
-                  <div class="post-content">
-                    <a href="#" class="headline">
-                      <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h5>
-                    </a>
-                    <p>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...</p>
-                    <!-- Post Meta -->
-                    <div class="post-meta">
-                      <p>
-                        <a href="#" class="post-author">Katy Liu</a> on
-                        <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <section id="relation">
+            <div class="container">
+              <div class="section-header">
+                <h2>ประชาสัมพันธ์</h2>
               </div>
-              <div class="col-12 col-md-6">
-                <!-- Single Blog Post -->
-                <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
-                  <!-- Post Thumbnail -->
-                  <div class="post-thumbnail">
-                    <img src="img/b10.jpg" alt="">
-                  </div>
-                  <!-- Post Content -->
-                  <div class="post-content">
-                    <a href="#" class="headline">
-                      <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                    </a>
-                    <!-- Post Meta -->
-                    <div class="post-meta">
-                      <p>
-                        <a href="#" class="post-author">Katy Liu</a> on
-                        <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                      </p>
+
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
+                  <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
+                    <!-- Post Thumbnail -->
+                    <div class="post-thumbnail">
+                      <img src="img/b1.jpg" alt="">
                     </div>
-                  </div>
-                </div>
-                <!-- Single Blog Post -->
-                <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
-                  <!-- Post Thumbnail -->
-                  <div class="post-thumbnail">
-                    <img src="img/b10.jpg" alt="">
-                  </div>
-                  <!-- Post Content -->
-                  <div class="post-content">
-                    <a href="#" class="headline">
-                      <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                    </a>
-                    <!-- Post Meta -->
-                    <div class="post-meta">
-                      <p>
-                        <a href="#" class="post-author">Katy Liu</a> on
-                        <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Single Blog Post -->
-                <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
-                  <!-- Post Thumbnail -->
-                  <div class="post-thumbnail">
-                    <img src="img/b10.jpg" alt="">
-                  </div>
-                  <!-- Post Content -->
-                  <div class="post-content">
-                    <a href="#" class="headline">
-                      <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                    </a>
-                    <!-- Post Meta -->
-                    <div class="post-meta">
-                      <p>
-                        <a href="#" class="post-author">Katy Liu</a> on
-                        <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                      </p>
+                    <!-- Post Content -->
+                    <div class="post-content">
+                      <a href="#" class="headline">
+                        <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h5>
+                      </a>
+                      <p>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...</p>
+                      <!-- Post Meta -->
+                      <div class="post-meta">
+                        <p>
+                          <a href="#" class="post-author">Katy Liu</a> on
+                          <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </section>
+          <!-- #Relation -->
         </div>
-      </div>
-    </section>
-    <!-- #Relation -->
+        <div class="col-6">
+          <section id="article">
+            <div class="container">
+              <div class="section-header">
+                <h2>บทความ / เกร็ดความรู้ </h2>
+              </div>
 
-
-    <!--==========================
-      Article Section
-    ============================-->
-    <section id="article">
-      <div class="container">
-        <div class="section-header">
-          <h2>บทความ / เกร็ดความรู้ </h2>
-        </div>
-
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                  <!-- Post Thumbnail -->
-                  <div class="post-thumbnail">
-                    <img src="img/b1.jpg" alt="">
-                  </div>
-                  <!-- Post Content -->
-                  <div class="post-content">
-                    <a href="#" class="headline">
-                      <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h5>
-                    </a>
-                    <p>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...</p>
-                    <!-- Post Meta -->
-                    <div class="post-meta">
-                      <p>
-                        <a href="#" class="post-author">Katy Liu</a> on
-                        <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                      </p>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
+                  <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
+                    <!-- Post Thumbnail -->
+                    <div class="post-thumbnail">
+                      <img src="img/b10.jpg" alt="">
+                    </div>
+                    <!-- Post Content -->
+                    <div class="post-content">
+                      <a href="#" class="headline">
+                        <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
+                      </a>
+                      <!-- Post Meta -->
+                      <div class="post-meta">
+                        <p>
+                          <a href="#" class="post-author">Katy Liu</a> on
+                          <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-6">
-                <!-- Single Blog Post -->
-                <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
-                  <!-- Post Thumbnail -->
-                  <div class="post-thumbnail">
-                    <img src="img/b10.jpg" alt="">
-                  </div>
-                  <!-- Post Content -->
-                  <div class="post-content">
-                    <a href="#" class="headline">
-                      <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                    </a>
-                    <!-- Post Meta -->
-                    <div class="post-meta">
-                      <p>
-                        <a href="#" class="post-author">Katy Liu</a> on
-                        <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                      </p>
-                    </div>
-                  </div>
+
+              <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
+                <!-- Post Thumbnail -->
+                <div class="post-thumbnail">
+                  <img src="img/b10.jpg" alt="">
                 </div>
-                <!-- Single Blog Post -->
-                <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
-                  <!-- Post Thumbnail -->
-                  <div class="post-thumbnail">
-                    <img src="img/b10.jpg" alt="">
-                  </div>
-                  <!-- Post Content -->
-                  <div class="post-content">
-                    <a href="#" class="headline">
-                      <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                    </a>
-                    <!-- Post Meta -->
-                    <div class="post-meta">
-                      <p>
-                        <a href="#" class="post-author">Katy Liu</a> on
-                        <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Single Blog Post -->
-                <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
-                  <!-- Post Thumbnail -->
-                  <div class="post-thumbnail">
-                    <img src="img/b10.jpg" alt="">
-                  </div>
-                  <!-- Post Content -->
-                  <div class="post-content">
-                    <a href="#" class="headline">
-                      <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                    </a>
-                    <!-- Post Meta -->
-                    <div class="post-meta">
-                      <p>
-                        <a href="#" class="post-author">Katy Liu</a> on
-                        <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                      </p>
-                    </div>
+                <!-- Post Content -->
+                <div class="post-content">
+                  <a href="#" class="headline">
+                    <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
+                  </a>
+                  <!-- Post Meta -->
+                  <div class="post-meta">
+                    <p>
+                      <a href="#" class="post-author">Katy Liu</a> on
+                      <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
+                    </p>
                   </div>
                 </div>
               </div>
+
+              <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
+                <!-- Post Thumbnail -->
+                <div class="post-thumbnail">
+                  <img src="img/b10.jpg" alt="">
+                </div>
+                <!-- Post Content -->
+                <div class="post-content">
+                  <a href="#" class="headline">
+                    <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
+                  </a>
+                  <!-- Post Meta -->
+                  <div class="post-meta">
+                    <p>
+                      <a href="#" class="post-author">Katy Liu</a> on
+                      <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
-          </div>
+
         </div>
-
+        </section>
+        <!-- #article -->
       </div>
-    </section>
-    <!-- #article -->
-
+    </div>
 
     <!--==========================
       Clients Section
@@ -393,7 +355,7 @@
         </div>
       </div>
       <div class="container">
-      <div class="owl-carousel portfolio-carousel">
+        <div class="owl-carousel portfolio-carousel">
           <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
           <img src="img/portfolio/_DSC7650-01.jpeg" alt="">
         </div>
@@ -401,7 +363,7 @@
 
 
 
- 
+
     </section>
     <!-- #portfolio -->
 

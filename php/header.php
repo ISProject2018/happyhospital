@@ -3,14 +3,14 @@
       <div class="contact-info float-left">
         <i class="fa fa-envelope-o"></i>
         <a href="mailto:info@happyhospital.org">info@happyhospital.org</a>
-        <i class="fa fa-phone"></i> 02-973-2236-7 
+        <i class="fa fa-phone"></i> 085-1966102
       </div>
       <div class="social-links float-right">
         <a href="https://www.facebook.com/happyhospitalMR/" class="facebook" target="_blank">
           <i class="fa fa-facebook"> : โครงการโรงพยาบาลมีสุข มูลนิธิกระจกเงา </i>
         </a>
-        <a href="#">
-          <img src="img/line.svg" alt="" height="20" width="20"> : @happyhospitalMR
+        <a>
+          <img src="img/line.svg" alt="" height="20" width="20"> : 0851966102
         </a>
       </div>
     </div>
