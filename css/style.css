@@ -565,3 +565,37 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #0171b9;
 }
 
+
+/*--------------------------------------------------------------
+# Modal
+--------------------------------------------------------------*/
+#regisVolunteer span {
+  color: #df176f;
+  font-weight: 700;
+}
+
+#regisVolunteer p {
+margin-bottom: 10px;
+}
+
+#regisVolunteer ul {
+  list-style: none;
+  padding-left:30px;
+}
+
+#regisVolunteer ul li {
+  padding-bottom: 10px;
+}
+#regisVolunteer ul li i{
+  color: #df176f;
+}
+
+#regisVolunteer .badge-padding{
+  margin-left:10px; 
+  padding:5px;
+}
+
+#regisVolunteer .step hr{
+  height: 0.8px;
+  width: 90%;
+}

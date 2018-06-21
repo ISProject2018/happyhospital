@@ -87,7 +87,6 @@
           <div class="col-lg-6 content">
             <h2>อาสาสมัคร</h2>
             <h3>“ เพิ่มความสุข ลดความทุกข์ ”</h3>
-
             <ul>
               <li>
                 <i class="ion-android-checkmark-circle"></i> คุณสมบัติ</li>
