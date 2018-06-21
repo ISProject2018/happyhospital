@@ -369,8 +369,8 @@
         </div>
 
         <div class="owl-carousel clients-carousel">
-          <img src="img/clients/client-1.png" alt="">
-          <img src="img/clients/client-2.png" alt="">
+          <img src="img/clients/Jidasa.gif" alt="">
+          <img src="img/clients/Greenpeace-logo.png" alt="">
           <img src="img/clients/client-3.png" alt="">
           <img src="img/clients/client-4.png" alt="">
           <img src="img/clients/client-5.png" alt="">
