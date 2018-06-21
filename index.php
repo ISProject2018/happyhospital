@@ -205,7 +205,7 @@
     ============================-->
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-md-6 col-12">
           <section id="relation">
             <div class="container">
               <div class="section-header">
@@ -240,7 +240,7 @@
           </section>
           <!-- #Relation -->
         </div>
-        <div class="col-6">
+        <div class="col-md-6 col-12">
           <section id="article">
             <div class="container">
               <div class="section-header">

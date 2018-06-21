@@ -21,8 +21,9 @@
 
       <div id="logo" class="pull-left">
         <h1>
-          <a href="#body" class="scrollto"><img src="img/logo.jpg" alt="" height="50"></a>
+          <a href="index.php" class="scrollto"><img src="img/logo.jpg" alt="โรงพยาบาลมีสุข" height="50"></a>
         </h1>
+        
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
@@ -51,7 +52,7 @@
                 <a href="#">การเตรียมความพร้อม</a>
               </li>
               <li>
-                <a href="#">FAQ</a>
+                <a href="faq.php">FAQ</a>
               </li>
               <li>
                 <a href="#">ขั้นตอนเป็นอาสาสมัคร ใน รพ.</a>
