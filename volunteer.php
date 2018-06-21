@@ -187,7 +187,7 @@
             <p class="cta-text text-center"> ร่วมสันสร้างความสุขและลดความทุกข์ เพื่อเด็กๆและผู้ป่วยในโรงพยาบาล</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">ขั้นตอนการสมัคร</a>
           </div>
         </div>
 
