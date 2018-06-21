@@ -57,11 +57,11 @@
     </div>
 
     <div id="intro-carousel" class="owl-carousel" >
-      <div class="item" style="background-image: url('img/intro-carousel/1.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/2.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/3.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/4.jpg');"></div>
-      <div class="item" style="background-image: url('img/intro-carousel/5.jpg');"></div>
+      <div class="item" style="background-image: url('img/intro-carousel/_DSC7665-01.jpeg');"></div>
+      <div class="item" style="background-image: url('img/intro-carousel/_DSC7665-01.jpeg');"></div>
+      <div class="item" style="background-image: url('img/intro-carousel/_DSC7665-01.jpeg');"></div>
+      <div class="item" style="background-image: url('img/intro-carousel/_DSC7665-01.jpeg');"></div>
+      <div class="item" style="background-image: url('img/intro-carousel/_DSC7665-01.jpeg');"></div>
     </div>
 
   </section><!-- #intro -->
@@ -84,8 +84,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/1.jpg" class="portfolio-popup">
-                <img src="img/portfolio/1.jpg" alt="">
+              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
+                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 1</h2></div>
                 </div>
@@ -95,8 +95,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/2.jpg" class="portfolio-popup">
-                <img src="img/portfolio/2.jpg" alt="">
+              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
+                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 2</h2></div>
                 </div>
@@ -106,8 +106,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/3.jpg" class="portfolio-popup">
-                <img src="img/portfolio/3.jpg" alt="">
+              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
+                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 3</h2></div>
                 </div>
@@ -117,8 +117,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/4.jpg" class="portfolio-popup">
-                <img src="img/portfolio/4.jpg" alt="">
+              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
+                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 4</h2></div>
                 </div>
@@ -128,8 +128,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/5.jpg" class="portfolio-popup">
-                <img src="img/portfolio/5.jpg" alt="">
+              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
+                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 5</h2></div>
                 </div>
@@ -139,8 +139,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/6.jpg" class="portfolio-popup">
-                <img src="img/portfolio/6.jpg" alt="">
+              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
+                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 6</h2></div>
                 </div>
@@ -150,8 +150,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/7.jpg" class="portfolio-popup">
-                <img src="img/portfolio/7.jpg" alt="">
+              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
+                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 7</h2></div>
                 </div>
@@ -161,8 +161,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/8.jpg" class="portfolio-popup">
-                <img src="img/portfolio/8.jpg" alt="">
+              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
+                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 8</h2></div>
                 </div>
