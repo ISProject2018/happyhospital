@@ -28,7 +28,7 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-  <link href="css/voluntree.css" rel="stylesheet">
+  <link href="css/volunteer.css" rel="stylesheet">
 
 
   <!-- =======================================================

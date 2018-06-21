@@ -33,7 +33,7 @@
             <a href="index.php">หน้าหลัก</a>
           </li>
           <li>
-            <a href="#about">เกี่ยวกับเรา</a>
+            <a href="aboutus.php">เกี่ยวกับเรา</a>
           </li>
           <li class="menu-has-children">
             <a href="volunteer.php">อาสาสมัคร</a>
