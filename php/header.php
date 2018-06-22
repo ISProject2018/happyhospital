@@ -20,7 +20,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-          <a href="index.php" class="scrollto"><img src="img/logo.jpg" alt="โรงพยาบาลมีสุข" height="50px"></a>
+          <a href="index.php" class="scrollto"><img src="img/logo.jpg" alt="โรงพยาบาลมีสุข" height="65px"></a>
       </div>
 
       <nav id="nav-menu-container">

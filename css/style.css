@@ -147,7 +147,7 @@ body {
   }
   
   #header #logo img {
-    margin: -3px;
+    margin: -10.5px;
   }
   
   @media (max-width: 990px) {
@@ -156,7 +156,7 @@ body {
       height: 74px;
     }
     #header #logo img {
-      max-height: 40px;
+      max-height: 50px;
     }
   }
 
