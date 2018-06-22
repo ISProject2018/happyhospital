@@ -12,10 +12,6 @@
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
-    rel="stylesheet">
-
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -173,13 +169,11 @@
                   <img src="img/manual/h1.jpg">
                 </div>
                 <div class="col-8">
-                  <h4 class="title">
-                    <a href="">คู่มืออาสาสมัครในโรงพยาบาล</a><br><br>
-                  </h4>
-                  <a href="" class="cta-btn-1">เปิด E-book
+                  <h4 class="title">คู่มืออาสาสมัครในโรงพยาบาล<br><br></h4>
+                  <a href="http://www.happyhospital.org/manual1/index.html" class="cta-btn-1">เปิด E-book
                     <i class="fa fa-book" aria-hidden="true"></i>
                   </a>
-                  <a href="" class="cta-btn-2">ดาวน์โหลด PDF
+                  <a href="file/manual/manual_downloadPDF.PDF" class="cta-btn-2">ดาวน์โหลด PDF
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -193,13 +187,11 @@
                   <img src="img/manual/h2.jpg">
                 </div>
                 <div class="col-8">
-                  <h4 class="title">
-                    <a href="">การเตรียมความพร้อมเบื้องต้น สำหรับอาสาสมัครในโรงพยาบาล</a>
-                  </h4>
-                  <a href="" class="cta-btn-1">เปิด E-book
+                  <h4 class="title">การเตรียมความพร้อมเบื้องต้น สำหรับอาสาสมัครในโรงพยาบาล</h4>
+                  <a href="http://www.happyhospital.org/manual2/index.html" class="cta-btn-1">เปิด E-book
                     <i class="fa fa-book" aria-hidden="true"></i>
                   </a>
-                  <a href="" class="cta-btn-2">ดาวน์โหลด PDF
+                  <a href="file/manual/manual2_downloadPDF.PDF" class="cta-btn-2">ดาวน์โหลด PDF
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                   </a>
                 </div>
