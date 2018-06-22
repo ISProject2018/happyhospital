@@ -185,9 +185,12 @@
             <p class="cta-text text-center"> ร่วมสันสร้างความสุขและลดความทุกข์ เพื่อเด็กๆและผู้ป่วยในโรงพยาบาล</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">ขั้นตอนการสมัคร</a>
+          <a class="cta-btn align-middle" href="#regisVolunteer" data-toggle="modal">ขั้นตอนการสมัคร</a>
           </div>
         </div>
+
+        <!-- Modal -->
+    <?php include "php/regis_modal.php";?>
 
       </div>
     </section><!-- #downloadform -->

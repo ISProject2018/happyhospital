@@ -52,7 +52,7 @@
                 <a href="#" class="scrollto">ขั้นตอนเป็นอาสาสมัคร ใน รพ.</a>
               </li>
               <li>
-                <a href="#" class="scrollto">ดาวน์โหลดใบสมัคร</a>
+                <a href="volunteer.php#downloadform" class="scrollto">ดาวน์โหลดใบสมัคร</a>
               </li>
             </ul>
           </li>
