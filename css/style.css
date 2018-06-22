@@ -20,6 +20,7 @@
 @font-face {
   font-family: 'itimregular';
   src: url('../lib/font/itim-regular-webfont.woff2') format('woff2'),
+       url('../lib/font/itim-regular-webfont.ttf') format('ttf'),
        url('../lib/font/itim-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
