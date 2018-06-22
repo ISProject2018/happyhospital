@@ -42,12 +42,7 @@
               <li>
                 <a href="volunteer.php#property" class="scrollto">คุณสมบัติ</a>
               </li>
-              <li>
-<<<<<<< HEAD
-                <a href="activity.php">กิจกรรมอาสาสมัคร ใน รพ.</a>
-=======
-                <a href="#" class="scrollto">กิจกรรมอาสาสมัคร ใน รพ.</a>
->>>>>>> d592c9a9072efb6ed5603111445fce7cea807907
+                <a href="activity.php" class="scrollto">กิจกรรมอาสาสมัคร ใน รพ.</a>
               </li>
               <li>
                 <a href="#" class="scrollto">กลุ่มเป้าหมาย</a>
