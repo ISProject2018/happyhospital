@@ -254,7 +254,7 @@
 
               <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
-                  <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
+                  <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig mb-2" data-wow-delay="0.2s">
                     <!-- Post Thumbnail -->
                     <div class="post-thumbnail">
                       <img src="img/b10.jpg" alt="">
@@ -276,7 +276,7 @@
                 </div>
               </div>
 
-              <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
+              <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig mb-2" data-wow-delay="0.2s">
                 <!-- Post Thumbnail -->
                 <div class="post-thumbnail">
                   <img src="img/b10.jpg" alt="">
@@ -338,12 +338,6 @@
         <div class="owl-carousel clients-carousel">
           <img src="img/clients/Jidasa.gif" alt="">
           <img src="img/clients/Greenpeace-logo.png" alt="">
-          <img src="img/clients/client-3.png" alt="">
-          <img src="img/clients/client-4.png" alt="">
-          <img src="img/clients/client-5.png" alt="">
-          <img src="img/clients/client-6.png" alt="">
-          <img src="img/clients/client-7.png" alt="">
-          <img src="img/clients/client-8.png" alt="">
         </div>
 
       </div>

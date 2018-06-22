@@ -146,37 +146,14 @@ body {
     box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
   }
   
-  #header #logo h1 {
-    font-size: 42px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-family: "noto_sans_thairegular", sans-serif;
-    font-weight: 700;
-  }
-  
-  #header #logo h1 a {
-    color: #0171b9;
-    line-height: 1;
-    display: inline-block;
-  }
-  
-  #header #logo h1 a span {
-    color: #df176f;
-  }
-  
   #header #logo img {
-    padding: 0;
-    margin: 0;
+    margin: -3px;
   }
   
   @media (max-width: 990px) {
     #header {
       padding: 20px 0;
       height: 74px;
-    }
-    #header #logo h1 {
-      font-size: 34px;
     }
     #header #logo img {
       max-height: 40px;

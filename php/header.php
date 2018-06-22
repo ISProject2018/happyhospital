@@ -20,12 +20,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1>
-          <a href="index.php" class="scrollto"><img src="img/logo.jpg" alt="โรงพยาบาลมีสุข" height="50"></a>
-        </h1>
-        
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+          <a href="index.php" class="scrollto"><img src="img/logo.jpg" alt="โรงพยาบาลมีสุข" height="50px"></a>
       </div>
 
       <nav id="nav-menu-container">
