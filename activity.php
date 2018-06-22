@@ -25,9 +25,6 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/activity.css" rel="stylesheet">
   
-  
-
-
   <!-- =======================================================
     Theme Name: Reveal
     Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
