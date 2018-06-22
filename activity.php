@@ -11,9 +11,7 @@
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Itim|Noto+Serif" rel="stylesheet"> 
+  
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
