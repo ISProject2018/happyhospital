@@ -1,20 +1,20 @@
-jQuery(document).ready(function( $ ) {
+jQuery(document).ready(function ($) {
 
   // Back to top button
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
     } else {
       $('.back-to-top').fadeOut('slow');
     }
   });
-  $('.back-to-top').click(function(){
-    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+  $('.back-to-top').click(function () {
+    $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
     return false;
   });
 
   // Stick the header at top on scroll
-  $("#header").sticky({topSpacing:0, zIndex: '50'});
+  $("#header").sticky({ topSpacing: 0, zIndex: '50' });
 
   // Intro background carousel
   $("#intro-carousel").owlCarousel({
@@ -51,19 +51,19 @@ jQuery(document).ready(function( $ ) {
     $('body').append('<div id="mobile-body-overly"></div>');
     $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
 
-    $(document).on('click', '.menu-has-children i', function(e) {
+    $(document).on('click', '.menu-has-children i', function (e) {
       $(this).next().toggleClass('menu-item-active');
       $(this).nextAll('ul').eq(0).slideToggle();
       $(this).toggleClass("fa-chevron-up fa-chevron-down");
     });
 
-    $(document).on('click', '#mobile-nav-toggle', function(e) {
+    $(document).on('click', '#mobile-nav-toggle', function (e) {
       $('body').toggleClass('mobile-nav-active');
       $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
       $('#mobile-body-overly').toggle();
     });
 
-    $(document).click(function(e) {
+    $(document).click(function (e) {
       var container = $("#mobile-nav, #mobile-nav-toggle");
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         if ($('body').hasClass('mobile-nav-active')) {
@@ -78,7 +78,7 @@ jQuery(document).ready(function( $ ) {
   }
 
   // Smooth scroll for the menu and links with .scrollto classes
-  $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
+  $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       if (target.length) {
@@ -87,7 +87,7 @@ jQuery(document).ready(function( $ ) {
         if ($('#header').length) {
           top_space = $('#header').outerHeight();
 
-          if( ! $('#header').hasClass('header-fixed') ) {
+          if (!$('#header').hasClass('header-fixed')) {
             top_space = top_space - 20;
           }
         }
@@ -111,15 +111,29 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
-// portfolio carousel (uses the Owl Carousel library)
-  $(".portfolio-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    animateOut: 'fadeOut',
-    items: 1
-  });
+// Smooth scroll for another page
+  if (window.location.hash)
+    scroll(0, 0);
+  setTimeout(function () { scroll(0, 0); }, 1);
 
+  $(function () {
+    top_space = $('#header').outerHeight();
+    top_space = top_space - 20;
+
+    $('.scroll').on('click', function (e) {
+      e.preventDefault();
+      $('html,body').animate({
+        scrollTop: $($(this).attr('href')).offset().top - top_space
+      }, 1500, 'easeInOutExpo');
+    });
+
+    if (window.location.hash) {
+
+      $('html,body').animate({
+        scrollTop: $(window.location.hash).offset().top - top_space
+      }, 1500, 'easeInOutExpo');
+    }
+  });
 
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
@@ -134,10 +148,11 @@ jQuery(document).ready(function( $ ) {
     autoplay: true,
     dots: true,
     loop: true,
-    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
+    responsive: {
+      0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
     }
   });
 
- 
+
 
 });

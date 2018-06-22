@@ -98,7 +98,7 @@
                 <i class="ion-android-checkmark-circle"></i> ดาวน์โหลดใบสมัคร</li>
             </ul>
             <div class="float-right">
-              <a class="btn-readmore" href="">อ่านเพิ่มเติม</a>
+              <a class="btn-readmore" href="volunteer.php">อ่านเพิ่มเติม</a>
             </div>
           </div>
         </div>
@@ -344,27 +344,6 @@
     </section>
     <!-- #clients -->
 
-    <!--==========================
-      Our Portfolio Section
-    ============================-->
-    <section id="portfolio" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2>ภาพกิจกรรม</h2>
-        </div>
-      </div>
-      <div class="container">
-        <div class="owl-carousel portfolio-carousel">
-          <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
-          <img src="img/portfolio/_DSC7650-01.jpeg" alt="">
-        </div>
-      </div>
-
-
-
-
-    </section>
-    <!-- #portfolio -->
 
     <!--==========================
       Testimonials Section
