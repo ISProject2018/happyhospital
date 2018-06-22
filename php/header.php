@@ -31,34 +31,38 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active">
-            <a href="index.php">หน้าหลัก</a>
+            <a href="index.php" class="scrollto">หน้าหลัก</a>
           </li>
           <li>
-            <a href="aboutus.php">เกี่ยวกับเรา</a>
+            <a href="aboutus.php" class="scrollto">เกี่ยวกับเรา</a>
           </li>
           <li class="menu-has-children">
-            <a href="volunteer.php">อาสาสมัคร</a>
+            <a href="volunteer.php" class="scrollto">อาสาสมัคร</a>
             <ul>
               <li>
-                <a href="volunteer.php#property">คุณสมบัติ</a>
+                <a href="volunteer.php#property" class="scrollto">คุณสมบัติ</a>
               </li>
               <li>
+<<<<<<< HEAD
                 <a href="activity.php">กิจกรรมอาสาสมัคร ใน รพ.</a>
+=======
+                <a href="#" class="scrollto">กิจกรรมอาสาสมัคร ใน รพ.</a>
+>>>>>>> d592c9a9072efb6ed5603111445fce7cea807907
               </li>
               <li>
-                <a href="#">กลุ่มเป้าหมาย</a>
+                <a href="#" class="scrollto">กลุ่มเป้าหมาย</a>
               </li>
               <li>
-                <a href="#">การเตรียมความพร้อม</a>
+                <a href="#" class="scrollto">การเตรียมความพร้อม</a>
               </li>
               <li>
-                <a href="faq.php">FAQ</a>
+                <a href="faq.php" class="scrollto">FAQ</a>
               </li>
               <li>
-                <a href="#">ขั้นตอนเป็นอาสาสมัคร ใน รพ.</a>
+                <a href="#" class="scrollto">ขั้นตอนเป็นอาสาสมัคร ใน รพ.</a>
               </li>
               <li>
-                <a href="#">ดาวน์โหลดใบสมัคร</a>
+                <a href="#" class="scrollto">ดาวน์โหลดใบสมัคร</a>
               </li>
             </ul>
           </li>
