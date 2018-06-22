@@ -144,7 +144,7 @@
                   <span> l </span> E-mail :
                   <span> info@happyhospital.org </span>
                   <span> l </span>โทร:
-                  <span>02- 973-2236 </span>ต่อ 
+                  <span>02- 973-2236 </span>ต่อ
                   <span>103, 085-1966102</span>
                 </p>
               </td>
@@ -166,34 +166,48 @@
         </div>
 
         <div class="row">
-
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
-              <div class="icon">
-                <i class="fas fa-chart-bar"></i>
+              <div class="row">
+                <div class="col-4">
+                  <img src="img/manual/h1.jpg">
+                </div>
+                <div class="col-8">
+                  <h4 class="title">
+                    <a href="">คู่มืออาสาสมัครในโรงพยาบาล</a><br><br>
+                  </h4>
+                  <a href="" class="cta-btn-1">เปิด E-book
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                  </a>
+                  <a href="" class="cta-btn-2">ดาวน์โหลด PDF
+                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                  </a>
+                </div>
               </div>
-              <h4 class="title">
-                <a href="">คู่มืออาสาสมัคร ใน รพ.</a>
-              </h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
-                etiro rabeta lingo.</p>
             </div>
           </div>
-
           <div class="col-lg-6">
-            <div class="box wow fadeInRight">
-              <div class="icon">
-                <i class="fa fa-picture-o"></i>
+            <div class="box wow fadeInLeft">
+              <div class="row">
+                <div class="col-4">
+                  <img src="img/manual/h2.jpg">
+                </div>
+                <div class="col-8">
+                  <h4 class="title">
+                    <a href="">การเตรียมความพร้อมเบื้องต้น สำหรับอาสาสมัครในโรงพยาบาล</a>
+                  </h4>
+                  <a href="" class="cta-btn-1">เปิด E-book
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                  </a>
+                  <a href="" class="cta-btn-2">ดาวน์โหลด PDF
+                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                  </a>
+                </div>
               </div>
-              <h4 class="title">
-                <a href="">การเตรียมความพร้อมเบื้องต้น สำหรับอาสาสมัครในโรงพยาบาล</a>
-              </h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino
-                ata nodera clas.</p>
             </div>
           </div>
-
         </div>
+      </div>
 
       </div>
     </section>
