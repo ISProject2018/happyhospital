@@ -29,6 +29,8 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/volunteer.css" rel="stylesheet">
+  
+  
 
 
   <!-- =======================================================
@@ -200,9 +202,12 @@
     <section id="property" class="wow fadeInUp">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 property-img">
-            <img src="img/about-img.jpg" alt="">
+          <div class="col-lg-6 property-img text-center"> 
+            <img src="img/property.jpg" alt="" height="420">
           </div>
+
+
+
 
           <div class="col-lg-6 content">
             <h2>คุณสมบัติของอาสาสร้างสุข</h2>

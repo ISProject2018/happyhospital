@@ -43,7 +43,7 @@
                 <a href="volunteer.php#property">คุณสมบัติ</a>
               </li>
               <li>
-                <a href="#">กิจกรรมอาสาสมัคร ใน รพ.</a>
+                <a href="activity.php">กิจกรรมอาสาสมัคร ใน รพ.</a>
               </li>
               <li>
                 <a href="#">กลุ่มเป้าหมาย</a>
