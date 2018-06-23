@@ -170,10 +170,10 @@
                 </div>
                 <div class="col-8">
                   <h4 class="title">คู่มืออาสาสมัครในโรงพยาบาล<br><br></h4>
-                  <a href="http://www.happyhospital.org/manual1/index.html" class="cta-btn-1">เปิด E-book
+                  <a href="http://www.happyhospital.org/manual1/index.html" target="_blank" class="cta-btn-1">เปิด E-book
                     <i class="fa fa-book" aria-hidden="true"></i>
                   </a>
-                  <a href="file/manual/manual_downloadPDF.PDF" class="cta-btn-2">ดาวน์โหลด PDF
+                  <a href="file/manual/manual_downloadPDF.PDF" class="cta-btn-2" target="_blank">ดาวน์โหลด PDF
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -188,10 +188,10 @@
                 </div>
                 <div class="col-8">
                   <h4 class="title">การเตรียมความพร้อมเบื้องต้น สำหรับอาสาสมัครในโรงพยาบาล</h4>
-                  <a href="http://www.happyhospital.org/manual2/index.html" class="cta-btn-1">เปิด E-book
+                  <a href="http://www.happyhospital.org/manual2/index.html" class="cta-btn-1" target="_blank">เปิด E-book
                     <i class="fa fa-book" aria-hidden="true"></i>
                   </a>
-                  <a href="file/manual/manual2_downloadPDF.PDF" class="cta-btn-2">ดาวน์โหลด PDF
+                  <a href="file/manual/manual2_downloadPDF.PDF" class="cta-btn-2" target="_blank">ดาวน์โหลด PDF
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -443,6 +443,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
 
 </body>
 
