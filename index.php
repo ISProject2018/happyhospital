@@ -26,6 +26,10 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/jssor/jssor.slider-27.1.0.min.js"></script>
+  <script src="js/slideshow.js"></script>
 
   <!-- =======================================================
     Theme Name: Reveal
@@ -78,7 +82,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 volunteer-img">
-            <img src="img/about-img.jpg" alt="">
+            <?php include "php/slideshow.php";?>
           </div>
 
           <div class="col-lg-6 content">
@@ -430,8 +434,6 @@
   </a>
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/superfish/hoverIntent.js"></script>
