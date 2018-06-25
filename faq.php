@@ -18,10 +18,7 @@
     <!-- Libraries CSS Flies -->
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet Flie -->
     <link href="css/style.css" rel="stylesheet">
@@ -448,11 +445,7 @@
     <script src="lib/superfish/superfish.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/magnific-popup/magnific-popup.min.js"></script>
     <script src="lib/sticky/sticky.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
-    <!-- Contact Form JavaScript Flie -->
-    <script src="contactform/contactform.js"></script>
 
     <!-- Template Main Javascript Flie -->
     <script src="js/main.js"></script>
