@@ -48,12 +48,13 @@
   ============================-->
   <section id="intro">
     <div class="intro-content">
-      <h2>Making
-        <span>your ideas</span>
-        <br>happen!</h2>
+      <h2>ความสุข =
+        <span>การให้</span>
+        <br>ความใส่ใจ =
+        <span>ลงมือทำ</span>
+        </h2>
       <div>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
+        <a href="#portfolio" class="btn-projects scrollto">ร่วมเป็นอาสาสมัครสร้างสุขในโรงพยาบาล</a>
       </div>
     </div>
 
