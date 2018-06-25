@@ -38,7 +38,7 @@
 
 <body id="body">
 
-    <?php include "php/header.php"?>
+    <?php $page = "aboutus"; include "php/header.php";?>
 
     <!--==========================
     Intro Section

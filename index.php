@@ -41,7 +41,7 @@
    Top Bar AND Header
   ============================-->
 
-  <?php include "php/header.php";?>
+  <?php $page = 'home'; include "php/header.php";?>
 
   <!--==========================
     Intro Section

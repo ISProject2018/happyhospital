@@ -40,7 +40,7 @@
 
 <body id="body">
 
-  <?php include "php/header.php"?>
+  <?php $page = "volunteer"; include "php/header.php";?>
 
   <!--==========================
     Intro Section

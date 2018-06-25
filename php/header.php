@@ -25,13 +25,13 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active">
+          <li class="<?php if($page == 'home'){echo 'menu-active';} ?>">
             <a href="index.php" class="scrollto">หน้าหลัก</a>
           </li>
-          <li>
+          <li class="<?php if($page == 'aboutus'){echo 'menu-active';} ?>">
             <a href="aboutus.php" class="scrollto">เกี่ยวกับเรา</a>
           </li>
-          <li class="menu-has-children">
+          <li class="menu-has-children <?php if($page == 'volunteer'){echo 'menu-active';} ?>">
             <a href="volunteer.php" class="scrollto">อาสาสมัคร</a>
             <ul>
               <li>
