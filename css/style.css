@@ -400,7 +400,7 @@ body {
 }
 
 #mobile-nav-toggle i {
-  color: #555;
+  color: rgb(41, 41, 41);
 }
 
 @media (max-width: 990px) {
@@ -416,7 +416,7 @@ body {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(255, 255, 255, 255);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -434,7 +434,7 @@ body {
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+  color: #000;
   font-size: 16px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -446,7 +446,7 @@ body {
 }
 
 #mobile-nav ul li a:hover {
-  color: #fff;
+  color: #df176f;
 }
 
 #mobile-nav ul li li {
@@ -459,7 +459,7 @@ body {
   z-index: 99;
   padding: 15px;
   cursor: pointer;
-  color: #fff;
+  color: #000;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
@@ -477,7 +477,7 @@ body {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(221, 221, 221, 0.5);
   display: none;
 }
 

@@ -74,8 +74,8 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
-                        <a data-toggle="collapse" href="#q1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q1" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
+                        <a data-toggle="collapse" href="#q1" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                             <h3>1. Q : อาสาสร้างสุข คืออะไร?</h3>
                         </a>
                     </div>
@@ -97,7 +97,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q2" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q2" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>2. Q : ทำไมจึงต้องมีอาสาสมัครใน โรงพยาบาล ?</h3>
                         </a>
@@ -120,7 +120,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q3" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q3" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>3. Q : การเตรียมความพร้อมของอาสาสมัคร ว่าจะต้องเตรียมตัวอย่างไรบ้าง?</h3>
                         </a>
@@ -147,7 +147,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q4" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q4" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>4. Q : อยากทราบรายละเอียดเกี่ยวกับการสมัครเข้าเป็นอาสาสมัครใน รพ.ว่าจะต้องปฏิบัติอย่างไรบ้าง?</h3>
                         </a>
@@ -170,7 +170,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q5" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q5" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>5. Q : การเข้ามาเป็นอาสาสมัครใน รพ.จำเป็นจะต้องมาลงพื้นที่ทุกวันหรือไม่?</h3>
                         </a>
@@ -187,7 +187,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q6" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q6" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>6. Q : อาสาสมัครสามารถเข้าไปทำกิจกรรมอะไรได้บ้างกับผู้ป่วย?</h3>
                         </a>
@@ -203,7 +203,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q7" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q7" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>7. Q : การที่อาสาสมัครเข้าไปทำกิจกรรมกับผู้ป่วยจะช่วยส่งผลอย่างไรกับผู้ป่วยได้บ้าง?</h3>
                         </a>
@@ -222,7 +222,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q8" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q8" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>8. Q : ลักษณะอาการของผู้ป่วยเป็นอย่างไร? ( อาการ หนัก/เบา ) </h3>
                         </a>
@@ -238,7 +238,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q9" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q9" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>9. Q : จำนวนผู้ป่วยในส่วนที่เข้าไปทำกิจกรรมมีจำนวนเท่าไหร่? </h3>
                         </a>
@@ -253,7 +253,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q10" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q10" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>10. Q : ผู้ป่วยส่วนใหญ่มีผู้ปกครอง/ญาติ เฝ้ารึเปล่า? </h3>
                         </a>
@@ -272,7 +272,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q11" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q11" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>11. Q : อาสาสมัครสามารถเข้ามาทำกิจกรรมกับผู้ป่วยได้เมื่อไหร่ วันไหน และเวลาใด? </h3>
                         </a>
@@ -288,7 +288,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q12" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q12" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>12. Q : สถานที่ที่อาสาสมัครจะเข้าไปทำกิจกรรมอยู่ที่ไหน? </h3>
                         </a>
@@ -303,7 +303,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q13" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q13" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>13. Q : อาสาสมัครจะเดินทางไปยังพื้นที่สร้างสุขได้อย่างไรบ้าง? </h3>
                         </a>
@@ -318,7 +318,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q14" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q14" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>14. Q : มีการเปิดพื้นที่ให้อาสาสมัครเข้าไปทำกิจกรรมอยู่กี่แห่ง? </h3>
                         </a>
@@ -333,7 +333,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q15" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q15" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>15. Q : อาสาสมัครจะสามารถได้อะไรจากสิ่งที่ทำบ้าง? ( ความสุข/ความเข้าใจ ) </h3>
                         </a>
@@ -350,7 +350,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q16" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q16" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>16. Q : การเข้ามาเป็นอาสาสมัครจะต้องเสียค่าใช้จ่ายอะไรหรือเปล่า? </h3>
                         </a>
@@ -366,7 +366,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q17" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q17" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>17. Q : จะรู้ได้อย่างไรว่าผู้ป่วยเป็นทุกข์มากน้อยแค่ไหน? </h3>
                         </a>
@@ -385,7 +385,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q18" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q18" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>18. Q : เวลาที่ว่างกับการลงพื้นที่ตามกำหนดไม่ตรงกัน จะทำอย่างไรได้บ้าง? </h3>
                         </a>
@@ -403,7 +403,7 @@
                 </div>
 
                 <div>
-                    <div class="box wow fadeInRight">
+                    <div class="box wow fadeInRight" data-toggle="collapse" href="#q19" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q19" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>19. Q : ผู้ป่วยสามารถทำกิจกรรมอะไรได้บ้าง และอาสาสมัครสามารถเตรียมอุปกรณ์อะไรไปทำกับผู้ป่วยได้บ้าง?
                                 </h3>

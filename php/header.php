@@ -77,7 +77,9 @@
           <li>
             <a href="#contact">บทความ</a>
           </li>
-          
+          <footer class="nav-logo" >
+
+          </footer>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
