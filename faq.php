@@ -406,7 +406,7 @@
                     <div class="box wow fadeInRight" data-toggle="collapse" href="#q19" role="button" aria-expanded="false" aria-controls="collapseExample" style="cursor:pointer;">
                         <a data-toggle="collapse" href="#q19" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <h3>19. Q : ผู้ป่วยสามารถทำกิจกรรมอะไรได้บ้าง และอาสาสมัครสามารถเตรียมอุปกรณ์อะไรไปทำกับผู้ป่วยได้บ้าง?
-                                </h3>
+                            </h3>
                         </a>
                     </div>
                     <div class="collapse pb-2" id="q19">
@@ -420,17 +420,27 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </section>
         <!-- #services -->
-
-
-
     </main>
 
     <?php include "php/footer.php"; ?>
+
+    <div class="donate">
+        <a href="#tickets">
+            <div class="row">
+                <div class="col-2">
+                    <i class="fa fa-gratipay" aria-hidden="true"></i>
+                </div>
+                <div class="col-10">
+                    <span>ร่วมบริจาคกับเรา</span>
+                    <p class="small">คุณเป็นหนึ่งในพลังร่วมสร้างสรรค์สังคม</p>
+                </div>
+            </div>
+
+        </a>
+    </div>
 
     <a href="#" class="back-to-top">
         <i class="fa fa-chevron-up"></i>

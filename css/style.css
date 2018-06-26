@@ -87,6 +87,48 @@ body {
     background: #0171b9;
     color: #fff;
   }
+
+    /* Back to top button */
+
+
+  .donate {
+    background-color: #019db9;  
+    position: fixed;
+    right: -250px;
+    bottom: 300px;
+    width:300px;
+     -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+  }
+  
+  .donate:hover {
+    right:0;
+  }
+  
+  
+  .donate a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 24px;
+  }
+  
+  .donate a i {
+    font-size: 30px;  
+    padding: 20px 12px;
+    background-color: #0171b9; 
+    margin-right: 3px;
+  }
+
+  .donate a p.small {
+    font-size: 14px;  
+    line-height: 0;
+  }
+
+
+  
   
   /*--------------------------------------------------------------
   # Top Bar
