@@ -92,9 +92,9 @@ body {
 
 
   .donate {
-    background-color: #019db9;  
+    background-color: #01bfe0;  
     position: fixed;
-    right: -250px;
+    right: -235px;
     bottom: 300px;
     width:300px;
      -webkit-transition: all 0.7s ease-in-out;
@@ -111,15 +111,13 @@ body {
   
   .donate a {
     color: #FFFFFF;
-    display: block;
     font-size: 24px;
   }
   
-  .donate a i {
-    font-size: 30px;  
-    padding: 20px 12px;
+  .donate a .img {
+    width: 65px;
     background-color: #0171b9; 
-    margin-right: 3px;
+    
   }
 
   .donate a p.small {
@@ -161,6 +159,7 @@ body {
   }
   
   #topbar .social-links a {
+    font-family: "noto_sans_thairegular", sans-serif;
     color: #555;
     padding: 4px 12px;
     display: inline-block;

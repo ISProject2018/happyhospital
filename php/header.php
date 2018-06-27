@@ -10,8 +10,8 @@
           <i class="fa fa-facebook"> : โครงการโรงพยาบาลมีสุข มูลนิธิกระจกเงา </i>
         </a>
         <a>
-          <img src="img/line.svg" alt="" height="20" width="20"> : 0851966102
-        </a>
+          <img src="img/line.png" alt="" height="25" width="25" style="margin-top: -6px;"> : 0851966102
+          </a>
       </div>
     </div>
 </section>

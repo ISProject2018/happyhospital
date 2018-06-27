@@ -431,11 +431,15 @@
         <a href="#tickets">
             <div class="row">
                 <div class="col-2">
-                    <i class="fa fa-gratipay" aria-hidden="true"></i>
+                    <div class="img py-3 pl-2">
+                    <img src="img/donation.png" alt="" height="50" >
+                    </div>
                 </div>
                 <div class="col-10">
-                    <span>ร่วมบริจาคกับเรา</span>
+                    <div class="pl-3 pt-3">
+                    <span class="">ร่วมบริจาค</span>
                     <p class="small">คุณเป็นหนึ่งในพลังร่วมสร้างสรรค์สังคม</p>
+                    </div>
                 </div>
             </div>
 
