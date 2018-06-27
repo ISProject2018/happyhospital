@@ -82,7 +82,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 volunteer-img">
-            <?php include "php/slideshow.php";?>
+            <div class = "mr-2">
+             <?php include "php/slideshow.php";?>
+            </div>
           </div>
 
           <div class="col-lg-6 content">
@@ -107,7 +109,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </section>
     <!-- #volunteer -->
