@@ -1,0 +1,103 @@
+/* section content */
+
+#content{
+    padding: 60px 0 30px 0;
+}
+
+  .tab-content {
+    padding-top: 30px; 
+  }
+  
+  .single-blog-post {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 5px; }
+  
+  .single-blog-post .post-thumbnail {
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .single-blog-post .post-thumbnail img {
+    width: 100%; 
+  }
+  
+  .single-blog-post .post-content {
+    padding: 20px 10px; 
+  }
+  
+  .single-blog-post .post-content .headline h5 {
+    font-size: 18px;
+    margin-bottom: 10px; 
+  }
+  
+  .single-blog-post .post-content p {
+    margin-bottom: 20px; 
+  }
+  
+  .single-blog-post .post-content .post-meta p {
+    margin-bottom: 0;
+    font-size: 12px; 
+  }
+  
+  .single-blog-post .post-content .post-meta p a {
+    font-size: 12px; 
+  }
+  
+  .single-blog-post.post-style-2 {
+    margin-bottom: 5px; 
+  }
+  
+  .single-blog-post.post-style-2 .post-thumbnail {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 97px;
+    flex: 0 0 97px;
+    min-width: 97px;
+    margin-right: 15px; 
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-blog-post.post-style-2 .post-thumbnail {
+      margin-right: 5px; 
+    } 
+  }
+  
+  .single-blog-post.post-style-2 .post-content {
+    padding: 5px 30px 5px 5px; 
+  
+  }
+  .single-blog-post.post-style-2 .post-content .headline h5 {
+    font-size: 14px;
+    margin-bottom: 10px; 
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-blog-post.post-style-2 .post-content .headline h5 {
+      font-size: 13px;
+   } 
+  }
+  
+  @media only screen and (max-width: 767px) {
+  .single-blog-post.post-style-2 .post-content .headline h5 {
+      font-size: 13px; 
+    } 
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-blog-post.post-style-2 .post-content {
+      padding: 5px; 
+    }  
+  }
+  
+  .single-blog-post.post-style-2:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .single-blog-post.post-style-2.widget-post .post-thumbnail {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70px;
+    flex: 0 0 70px;
+    min-width: 70px;
+    margin-right: 15px; 
+  }

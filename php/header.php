@@ -68,11 +68,11 @@
           <li>
             <a href="#portfolio">แกลอรี่</a>
           </li>
-          <li>
-            <a href="#team">ประชาสัมพันธ์</a>
+          <li class ="<?php if($page == 'relation'){echo 'menu-active';} ?>">
+            <a href="relation.php">ประชาสัมพันธ์</a>
           </li>
-          <li>
-            <a href="#contact">บทความ</a>
+          <li class ="<?php if($page == 'article'){echo 'menu-active';} ?>">
+            <a href="article.php">บทความ</a>
           </li>
           <footer class="nav-logo" >
 

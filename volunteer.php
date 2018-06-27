@@ -87,9 +87,8 @@
         </div>
       </div>
 
-      <div class="container-fluid">
+      <div class="container">
         <div class="row no-gutters">
-
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
