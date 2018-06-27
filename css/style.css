@@ -92,11 +92,15 @@ body {
 
 
   .donate {
+    z-index: 998;
     background-color: #01bfe0;  
     position: fixed;
-    right: -235px;
+    right: -250px;
     bottom: 300px;
     width:300px;
+    max-height: 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius:25px;
      -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
     -ms-transition: all 0.7s ease-in-out;
@@ -107,19 +111,13 @@ body {
   .donate:hover {
     right:0;
   }
-  
-  
   .donate a {
     color: #FFFFFF;
     font-size: 24px;
   }
-  
   .donate a .img {
     width: 65px;
-    background-color: #0171b9; 
-    
   }
-
   .donate a p.small {
     font-size: 14px;  
     line-height: 0;
