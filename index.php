@@ -58,7 +58,7 @@
         <span>ลงมือทำ</span>
         </h2>
       <div>
-        <a href="#portfolio" class="btn-projects scrollto">ร่วมเป็นอาสาสมัครสร้างสุขในโรงพยาบาล</a>
+        <a href="volunteer.php" class="btn-projects scrollto">ร่วมเป็นอาสาสมัครสร้างสุขในโรงพยาบาล</a>
       </div>
     </div>
 
@@ -356,63 +356,68 @@
     <section id="testimonials" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>ความรู้สึกของคนในโครงการ</h2>
+          <h2>นิยามสร้างสุข</h2>
         </div>
         <div class="owl-carousel testimonials-carousel">
 
           <div class="testimonial-item">
             <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam,
-              ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> ความสุขเป็นสิ่งที่เราสร้างขึ้นได้ ทั้งต่อตัวเอง และต่อคนรอบข้าง เพราะความสุขไม่ใช่แค่ความพรั่งพร้อมเสมอไป ให้ด้วยเต็มใจ ทำด้วยเต็มแรงแค่นั้นก็เพียงพอ
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
+            <div class="fixed-bottom" style="bottom: 14%;">
             <h3>Saul Goodman</h3>
             <h4>Ceo &amp; Founder</h4>
+            </div>
           </div>
 
           <div class="testimonial-item">
             <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum
-              velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">  ด้วยลายมือที่แสนหวัด ด้วยรอยหยักแห่งเส้นผม ด้วยรอยยิ้มนิ่มกลม ด้วยอารมย์รักยิ่งและยินดี ขอเป็นกำลังใจให้เด็กน้อย แลผู้ป่วยน้อยใหญ่ที่มากหลาย บอกด้วยยิ้มไมตรีที่มากมาย บอกมิตรและสหาย ป้าผู้นี้ผู้มาเยี่ยน
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+            <img src="img/testimonial-2.jpg" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
+            <div class="fixed-bottom" style="bottom: 14%;">
             <h3>Sara Wilsson</h3>
             <h4>Designer</h4>
+            </div>
           </div>
 
           <div class="testimonial-item">
             <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore
-              quem eram duis noster aute amet eram fore quis sint minim.
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> หากชีวิตหนึ่งที่เกิดมาได้มีโอกาสเป็นผู้ให้กับเค้าบ้าง ก็คงจะมีคุณค่ามากกว่าการเป็นผู้รับแต่ฝ่ายเดียว
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
+            <img src="img/testimonial-3.jpg" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
+            <div class="fixed-bottom" style="bottom: 14%;">
             <h3>Jena Karlis</h3>
             <h4>Store Owner</h4>
+            </div>
           </div>
 
           <div class="testimonial-item">
             <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor
-              enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> แค่คุณเป็นผู้ให้ คุณก็จะรู้สึกถึงความสุขที่ได้ให้นั้นทันทีอยู่แล้ว...ไม่เชื่อลองดูสิค่ะ
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+            <img src="img/testimonial-4.jpg" class="testimonial-img"  style="position:fixed;bottom: 25%;left:37%;">
+            <div class="fixed-bottom" style="bottom: 14%;">
             <h3>Matt Brandon</h3>
             <h4>Freelancer</h4>
+            </div>
           </div>
 
           <div class="testimonial-item">
             <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore
-              duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">  มีธรรมะในหัวใจ ปฏิบัติตนตามหลักคำสอนของพระพุทธศาสนา จะดำเนินชีวิตอย่างมีความสุข
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
+            <img src="img/testimonial-5.jpg" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
+            <div class="fixed-bottom" style="bottom: 14%;">
+            <h3>ฝน</h3>
+            <h4>อาสาสมัคร</h4>
+            </div>
           </div>
 
         </div>
