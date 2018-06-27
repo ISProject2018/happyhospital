@@ -424,6 +424,14 @@ body {
   margin: 0;
 }
 
+.nav-modal{
+ cursor:pointer;
+}
+.nav-modal:hover{
+  color: #df176f !important;
+}
+
+
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;

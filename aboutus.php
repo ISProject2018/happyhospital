@@ -237,10 +237,6 @@
         </section>
         <!-- #downloadform -->
 
-
-    <!-- Modal -->
-    <?php include "php/regis_modal.php";?>
-
     </main>
 
     <?php include "php/footer.php"; ?>

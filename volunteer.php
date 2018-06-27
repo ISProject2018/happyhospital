@@ -215,10 +215,6 @@
             <a class="cta-btn align-middle" href="#regisVolunteer" data-toggle="modal">ขั้นตอนการสมัคร</a>
           </div>
         </div>
-
-        <!-- Modal -->
-        <?php include "php/regis_modal.php";?>
-
       </div>
     </section>
     <!-- #downloadform -->

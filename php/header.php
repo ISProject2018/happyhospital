@@ -50,10 +50,7 @@
                 <a href="faq.php" class="scrollto">FAQ</a>
               </li>
               <li>
-                <a href="#" class="scrollto">ขั้นตอนเป็นอาสาสมัคร ใน รพ.</a>
-              </li>
-              <li>
-                <a href="volunteer.php#downloadform" class="scrollto">ดาวน์โหลดใบสมัคร</a>
+                <a class ="nav-modal" onclick = "$('#regisVolunteer').modal();">ขั้นตอนเป็นอาสาสมัคร ใน รพ.</a>
               </li>
             </ul>
           </li>
@@ -86,3 +83,6 @@
     </div>
   </header>
   <!-- #header -->
+
+<!-- Modal -->
+<?php include "php/regis_modal.php";?>
