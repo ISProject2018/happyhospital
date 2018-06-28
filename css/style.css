@@ -59,6 +59,7 @@ body {
   
   /* Back to top button */
   .back-to-top {
+    z-index: 998;
     position: fixed;
     display: none;
     background: #df176f;
@@ -242,7 +243,7 @@ body {
   }
 }
 
-#intro .intro-content .btn-get-started, #intro .intro-content .btn-projects {
+#intro .intro-content .btn-projects {
   font-family: "noto_sans_thairegular", sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -255,16 +256,6 @@ body {
   color: #fff;
 }
 
-#intro .intro-content .btn-get-started {
-  background: #0171b9;
-  border: 2px solid #0171b9;
-}
-
-#intro .intro-content .btn-get-started:hover {
-  background: none;
-  color: #0171b9;
-}
-
 #intro .intro-content .btn-projects {
   background: #df176f;
   border: 2px solid #df176f;
@@ -273,6 +264,13 @@ body {
 #intro .intro-content .btn-projects:hover {
   background: none;
   color: #df176f;
+}
+
+@media (max-width: 767px) {
+  #intro .intro-content .btn-projects {
+    font-size: 12px;
+    padding: 5px 16px;
+  }
 }
 
 #intro #intro-carousel {

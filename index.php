@@ -171,10 +171,10 @@
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
               <div class="row">
-                <div class="col-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                   <img src="img/manual/h1.jpg">
                 </div>
-                <div class="col-8">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 moblie-btn">
                   <h4 class="title">คู่มืออาสาสมัครในโรงพยาบาล
                     <br>
                     <br>
@@ -182,7 +182,7 @@
                   <a href="http://www.happyhospital.org/manual1/index.html" target="_blank" class="cta-btn-1">เปิด E-book
                     <i class="fa fa-book" aria-hidden="true"></i>
                   </a>
-                  <a href="file/manual/manual_downloadPDF.PDF" class="cta-btn-2" target="_blank">ดาวน์โหลด PDF
+                  <a href="file/manual/manual_downloadPDF.PDF" class="cta-btn-2" target="_blank">ดาวน์โหลด PDF 
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -192,10 +192,10 @@
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
               <div class="row">
-                <div class="col-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                   <img src="img/manual/h2.jpg">
                 </div>
-                <div class="col-8">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 moblie-btn">
                   <h4 class="title">การเตรียมความพร้อมเบื้องต้น สำหรับอาสาสมัครในโรงพยาบาล</h4>
                   <a href="http://www.happyhospital.org/manual2/index.html" class="cta-btn-1" target="_blank">เปิด E-book
                     <i class="fa fa-book" aria-hidden="true"></i>

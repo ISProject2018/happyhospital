@@ -55,7 +55,7 @@
             </ul>
           </li>
           <li class="menu-has-children">
-            <a href="">ชุดความรู้อาสาสมัครใน รพ.</a>
+            <a href="index.php#services">ชุดความรู้อาสาสมัครใน รพ.</a>
             <ul>
               <li>
                 <a href="index.php#services">คู่มืออาสาสมัคร ใน รพ.</a>
@@ -65,8 +65,8 @@
               </li>
             </ul>
           </li>
-          <li>
-            <a href="#portfolio">แกลอรี่</a>
+          <li class ="<?php if($page == 'gallery'){echo 'menu-active';} ?>">
+            <a href="gallery.php">แกลอรี่</a>
           </li>
           <li class ="<?php if($page == 'relation'){echo 'menu-active';} ?>">
             <a href="relation.php">ประชาสัมพันธ์</a>
