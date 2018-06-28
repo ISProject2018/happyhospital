@@ -35,16 +35,7 @@
   .single-blog-post .post-content p {
     margin-bottom: 20px; 
   }
-  
-  .single-blog-post .post-content .post-meta p {
-    margin-bottom: 0;
-    font-size: 12px; 
-  }
-  
-  .single-blog-post .post-content .post-meta p a {
-    font-size: 12px; 
-  }
-  
+    
   .single-blog-post.post-style-2 {
     margin-bottom: 5px; 
   }

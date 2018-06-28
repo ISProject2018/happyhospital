@@ -20,8 +20,6 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
@@ -53,113 +51,100 @@
     <!-- #intro -->
 
     <section id="content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="section-header">
                 <h2>ข่าวประชาสัมพันธ์</h2>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
-                            <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                <!-- Post Thumbnail -->
-                                <div class="post-thumbnail">
-                                    <img src="img/b1.jpg" alt="">
-                                </div>
-                                <!-- Post Content -->
-                                <div class="post-content">
-                                    <a href="#" class="headline">
-                                        <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h5>
-                                    </a>
-                                    <p>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...</p>
-                                    <!-- Post Meta -->
-                                    <div class="post-meta">
-                                        <p>
-                                            <a href="#" class="post-author">Katy Liu</a> on
-                                            <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
+                            <!-- Post Thumbnail -->
+                            <div class="post-thumbnail">
+                                <img src="img/b1.jpg" alt="">
+                            </div>
+                            <!-- Post Content -->
+                            <div class="post-content">
+                                <a href="#" class="headline">
+                                    <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h5>
+                                </a>
+                                <p>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-sm-12 col-xs-12 col-md-6">
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
-                                    <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                        <!-- Post Thumbnail -->
-                                        <div class="post-thumbnail">
-                                            <img src="img/b1.jpg" alt="">
-                                        </div>
-                                        <!-- Post Content -->
-                                        <div class="post-content">
-                                            <a href="#" class="headline">
-                                                <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts
-                                                    in Physics?</h5>
-                                            </a>
-                                        </div>
+                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="img/b1.jpg" alt="">
+                                    </div>
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="headline">
+                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
+                                                Physics?
+                                            </h5>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-12 col-xs-12 col-md-6">
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
-                                    <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                        <!-- Post Thumbnail -->
-                                        <div class="post-thumbnail">
-                                            <img src="img/b1.jpg" alt="">
-                                        </div>
-                                        <!-- Post Content -->
-                                        <div class="post-content">
-                                            <a href="#" class="headline">
-                                                <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts
-                                                    in Physics?</h5>
-                                            </a>
-                                        </div>
+                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="img/b1.jpg" alt="">
+                                    </div>
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="headline">
+                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
+                                                Physics?
+                                            </h5>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-sm-12 col-xs-12 col-md-6">
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
-                                    <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                        <!-- Post Thumbnail -->
-                                        <div class="post-thumbnail">
-                                            <img src="img/b1.jpg" alt="">
-                                        </div>
-                                        <!-- Post Content -->
-                                        <div class="post-content">
-                                            <a href="#" class="headline">
-                                                <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts
-                                                    in Physics?</h5>
-                                            </a>
-                                        </div>
+                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="img/b1.jpg" alt="">
+                                    </div>
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="headline">
+                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
+                                                Physics?
+                                            </h5>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-12 col-xs-12 col-md-6">
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
-                                    <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                        <!-- Post Thumbnail -->
-                                        <div class="post-thumbnail">
-                                            <img src="img/b1.jpg" alt="">
-                                        </div>
-                                        <!-- Post Content -->
-                                        <div class="post-content">
-                                            <a href="#" class="headline">
-                                                <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts
-                                                    in Physics?</h5>
-                                            </a>
-                                        </div>
+                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="img/b1.jpg" alt="">
+                                    </div>
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="headline">
+                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
+                                                Physics?
+                                            </h5>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
