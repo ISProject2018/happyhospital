@@ -20,7 +20,6 @@
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
@@ -60,7 +59,7 @@
         <span>ลงมือทำ</span>
       </h2>
       <div>
-        <a href="volunteer.php" class="btn-projects scrollto">ร่วมเป็นอาสาสมัครสร้างสุขในโรงพยาบาล</a>
+        <a href="volunteer.php" class="btn-projects scrollto">เพิ่มความสุข ลดความทุกข์ ในพื้นที่โรงพยาบาล</a>
       </div>
     </div>
 
@@ -91,7 +90,6 @@
 
           <div class="col-lg-6 content">
             <h2>อาสาสมัคร</h2>
-            <h3>“ เพิ่มความสุข ลดความทุกข์ ”</h3>
             <ul>
               <li>
                 <i class="ion-android-checkmark-circle"></i> คุณสมบัติ</li>
@@ -107,7 +105,7 @@
                 <i class="ion-android-checkmark-circle"></i> ดาวน์โหลดใบสมัคร</li>
             </ul>
             <div class="float-right">
-              <a class="btn-readmore" href="volunteer.php">อ่านเพิ่มเติม</a>
+              <a class="btn-readmore" href="volunteer.php">ดูทั้งหมด</a>
             </div>
           </div>
         </div>
@@ -362,7 +360,7 @@
     <section id="testimonials" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>นิยามสร้างสุข</h2>
+          <h2>อาสาสร้างสุข</h2>
         </div>
         <div class="owl-carousel testimonials-carousel">
 
