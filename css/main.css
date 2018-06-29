@@ -261,22 +261,22 @@
 }
 
 .single-blog-post .post-content .headline h5 {
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 10px; 
 }
 
 .single-blog-post .post-content p {
+  font-size: 16px;
   margin-bottom: 20px; 
 }
 
 .single-blog-post .post-content .post-meta p {
   margin-bottom: 0;
-  font-size: 12px; 
+  font-size: 14px; 
+  letter-spacing: 1.5px;
+  color: #df176f;
 }
 
-.single-blog-post .post-content .post-meta p a {
-  font-size: 12px; 
-}
 
 .single-blog-post.post-style-2 {
   margin-bottom: 5px; 
