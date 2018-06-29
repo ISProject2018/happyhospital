@@ -226,7 +226,10 @@
                 <h2>ประชาสัมพันธ์</h2>
               </div>
             <?php include "admin/connect_db.php";
-            $sql = "SELECT *  FROM `autopage4_data_topic` WHERE `IdAuto` = 29 ORDER BY `IdTopic` DESC LIMIT 1";
+            $sql = "SELECT autopage4_data_topic.IdTopic , autopage4_detail_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.DetailTopic ";  
+            $sql .= "FROM autopage4_data_topic ";
+            $sql .= "INNER JOIN autopage4_detail_topic ON autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic ";
+            $sql .= "AND autopage4_data_topic.IdAuto = 29 ORDER BY autopage4_data_topic.IdTopic DESC LIMIT 1";
             $result = $connection -> query($sql);
             while($row = mysqli_fetch_assoc($result)) 
             {
@@ -243,7 +246,7 @@
                       <a href="#" class="headline">
                         <h5><? echo $row['TopicName'];?></h5>
                       </a>
-                      <p>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...</p>
+                      <p><? echo $row['DetailTopic'];?></p>
                       <!-- Post Meta -->
                       <div class="post-meta">
                         <p>
