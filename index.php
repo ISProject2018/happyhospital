@@ -225,7 +225,12 @@
               <div class="section-header">
                 <h2>ประชาสัมพันธ์</h2>
               </div>
-
+            <?php include "admin/connect_db.php";
+            $sql = "SELECT *  FROM `autopage4_data_topic` WHERE `IdAuto` = 29 ORDER BY `IdTopic` DESC LIMIT 1";
+            $result = $connection -> query($sql);
+            while($row = mysqli_fetch_assoc($result)) 
+            {
+            ?>
               <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
                   <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
@@ -236,7 +241,7 @@
                     <!-- Post Content -->
                     <div class="post-content">
                       <a href="#" class="headline">
-                        <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h5>
+                        <h5><? echo $row['TopicName'];?></h5>
                       </a>
                       <p>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...</p>
                       <!-- Post Meta -->
@@ -250,6 +255,8 @@
                   </div>
                 </div>
               </div>
+
+             <?}?> 
             </div>
           </section>
           <!-- #Relation -->
