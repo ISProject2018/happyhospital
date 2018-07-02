@@ -1,3 +1,7 @@
+<?php
+require_once "admin/connect_db.php";
+require_once "admin/function.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,101 +60,37 @@
                 <h2>ข่าวประชาสัมพันธ์</h2>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="tab-content" id="myTabContent">
+            <?
+            $sql = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up ";  
+            $sql .= "FROM autopage4_data_topic ";
+            $sql .= "INNER JOIN autopage4_detail_topic ON autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic ";
+            $sql .= "AND autopage4_data_topic.IdAuto = 29 ORDER BY autopage4_data_topic.IdTopic DESC LIMIT 6";
+            $result = $connection -> query($sql);
+            while($row = mysqli_fetch_assoc($result)) 
+            {
+            ?>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="tab-content">
                         <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
                             <!-- Post Thumbnail -->
                             <div class="post-thumbnail">
                                 <img src="img/b1.jpg" alt="">
                             </div>
                             <!-- Post Content -->
-                            <div class="post-content">
-                                <a href="#" class="headline">
-                                    <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h5>
+                            <div class="post-content mb-1">
+                                <a href="showpost_detail.php?IdTopic=<?echo $row['IdTopic'];?>" class="headline" target="_blank">
+                                    <h5><? echo $row['TopicName'];?></h5>
                                 </a>
-                                <p>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="row">
-                        <div class="col-sm-12 col-xs-12 col-md-6">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                    <!-- Post Thumbnail -->
-                                    <div class="post-thumbnail">
-                                        <img src="img/b1.jpg" alt="">
-                                    </div>
-                                    <!-- Post Content -->
-                                    <div class="post-content">
-                                        <a href="#" class="headline">
-                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
-                                                Physics?
-                                            </h5>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-xs-12 col-md-6">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                    <!-- Post Thumbnail -->
-                                    <div class="post-thumbnail">
-                                        <img src="img/b1.jpg" alt="">
-                                    </div>
-                                    <!-- Post Content -->
-                                    <div class="post-content">
-                                        <a href="#" class="headline">
-                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
-                                                Physics?
-                                            </h5>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-xs-12 col-md-6">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                    <!-- Post Thumbnail -->
-                                    <div class="post-thumbnail">
-                                        <img src="img/b1.jpg" alt="">
-                                    </div>
-                                    <!-- Post Content -->
-                                    <div class="post-content">
-                                        <a href="#" class="headline">
-                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
-                                                Physics?
-                                            </h5>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-xs-12 col-md-6">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                    <!-- Post Thumbnail -->
-                                    <div class="post-thumbnail">
-                                        <img src="img/b1.jpg" alt="">
-                                    </div>
-                                    <!-- Post Content -->
-                                    <div class="post-content">
-                                        <a href="#" class="headline">
-                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
-                                                Physics?
-                                            </h5>
-                                        </a>
-                                    </div>
+                                <p><? echo $row['DetailTopic'];?></p>
+                            <!-- Post Meta -->
+                                <div class="post-meta">
+                                    <p class="post-date">โพสเมื่อ <? echo convertDate($row['Date_up']);?></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            <?}?>    
             </div>
         </div>
     </section>

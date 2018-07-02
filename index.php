@@ -227,7 +227,7 @@
               </div>
             <?php include "admin/connect_db.php";
                   include "admin/function.php";
-            $sql = "SELECT autopage4_data_topic.IdTopic , autopage4_detail_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up ";  
+            $sql = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up ";  
             $sql .= "FROM autopage4_data_topic ";
             $sql .= "INNER JOIN autopage4_detail_topic ON autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic ";
             $sql .= "AND autopage4_data_topic.IdAuto = 29 ORDER BY autopage4_data_topic.IdTopic DESC LIMIT 1";
@@ -250,9 +250,7 @@
                       <p><? echo $row['DetailTopic'];?></p>
                       <!-- Post Meta -->
                       <div class="post-meta">
-                        <p>
                           <p class="post-date">โพสเมื่อ <? echo convertDate($row['Date_up']);?></p>
-                        </p>
                       </div>
                     </div>
                   </div>
