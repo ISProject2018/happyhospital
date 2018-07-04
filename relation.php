@@ -1,6 +1,19 @@
 <?php
+
 require_once "admin/connect_db.php";
 require_once "admin/function.php";
+require_once "admin/Paginator.class.php";
+
+
+$limit      = ( isset( $_GET['limit'] ) ) ? $_GET['limit'] : 5;
+$page       = ( isset( $_GET['page'] ) ) ? $_GET['page'] : 1;
+$links      = ( isset( $_GET['links'] ) ) ? $_GET['links'] : 7;
+$query      = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName,autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up FROM autopage4_data_topic , autopage4_detail_topic WHERE autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic AND autopage4_data_topic.IdAuto = 29 ORDER by IdTopic DESC";
+
+$Paginator  = new Paginator( $connection, $query );
+
+$results    = $Paginator->getData($limit, $page);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -60,37 +73,33 @@ require_once "admin/function.php";
                 <h2>ข่าวประชาสัมพันธ์</h2>
             </div>
             <div class="row">
-            <?
-            $sql = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up ";  
-            $sql .= "FROM autopage4_data_topic ";
-            $sql .= "INNER JOIN autopage4_detail_topic ON autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic ";
-            $sql .= "AND autopage4_data_topic.IdAuto = 29 ORDER BY autopage4_data_topic.IdTopic DESC LIMIT 6";
-            $result = $connection -> query($sql);
-            while($row = mysqli_fetch_assoc($result)) 
-            {
-            ?>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="tab-content">
-                        <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                            <!-- Post Thumbnail -->
-                            <div class="post-thumbnail">
-                                <img src="img/b1.jpg" alt="">
-                            </div>
-                            <!-- Post Content -->
-                            <div class="post-content mb-1">
-                                <a href="showpost_detail.php?IdTopic=<?echo $row['IdTopic'];?>" class="headline" target="_blank">
-                                    <h5><? echo $row['TopicName'];?></h5>
-                                </a>
-                                <p><? echo $row['DetailTopic'];?></p>
-                            <!-- Post Meta -->
-                                <div class="post-meta">
-                                    <p class="post-date">โพสเมื่อ <? echo convertDate($row['Date_up']);?></p>
+                <?php for( $i = 0; $i < count( $results->data ); $i++ ) : ?>
+            
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="tab-content">
+                            <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
+                                <!-- Post Thumbnail -->
+                                <div class="post-thumbnail">
+                                    <img src="img/b1.jpg" alt="">
+                                </div>
+                                <!-- Post Content -->
+                                <div class="post-content mb-1">
+                                    <a href="showpost_detail.php?IdTopic=<?echo $results->data[$i]['IdTopic'];?>" class="headline" target="_blank">
+                                        <h5><?  echo $results->data[$i]['TopicName'];?></h5>
+                                    </a>
+                                    <p><? echo $results->data[$i]['DetailTopic'];?></p>
+                                <!-- Post Meta -->
+                                    <div class="post-meta">
+                                        <p class="post-date">โพสเมื่อ <? echo convertDate($results->data[$i]['Date_up']);?></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            <?}?>    
+                <?php endfor;?>    
+            </div>
+            <?php echo $Paginator->createLinks( $links, 'pagination pagination-sm' ); ?> 
+            <div>
             </div>
         </div>
     </section>
