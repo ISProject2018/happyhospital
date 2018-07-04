@@ -5,7 +5,7 @@ require_once "admin/function.php";
 require_once "admin/Paginator.class.php";
 
 
-$limit      = ( isset( $_GET['limit'] ) ) ? $_GET['limit'] : 5;
+$limit      = ( isset( $_GET['limit'] ) ) ? $_GET['limit'] : 6;
 $page       = ( isset( $_GET['page'] ) ) ? $_GET['page'] : 1;
 $links      = ( isset( $_GET['links'] ) ) ? $_GET['links'] : 7;
 $query      = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName,autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up FROM autopage4_data_topic , autopage4_detail_topic WHERE autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic AND autopage4_data_topic.IdAuto = 29 ORDER by IdTopic DESC";
@@ -44,7 +44,24 @@ $results    = $Paginator->getData($limit, $page);
 
 
 </head>
+<style>
+    #content li{  
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+    }
 
+     #content li.active{  
+        background-color: dodgerblue;
+        color: white;
+    }
+
+    #content li:hover:not(.active) {
+        background-color: #ddd;
+    }
+</style>
 <body>
     <!-- header -->
     <?php $page = "relation"; include "php/header.php";?>
@@ -98,9 +115,16 @@ $results    = $Paginator->getData($limit, $page);
                     </div>
                 <?php endfor;?>    
             </div>
-            <?php echo $Paginator->createLinks( $links, 'pagination pagination-sm' ); ?> 
-            <div>
+            <div class="row">
+                <div class="col-md-5 col-0"></div>
+                <div class="col-md-4 col-12">
+                <div class="pt-3">
+                    <?php echo $Paginator->createLinks( $links, 'pagination pagination-sm' ); ?> 
+                 </div>
+                </div>
+            
             </div>
+            
         </div>
     </section>
 

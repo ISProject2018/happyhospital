@@ -302,7 +302,7 @@ require_once "admin/function.php";
                 <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig mb-2" data-wow-delay="0.2s">
                   <!-- Post Thumbnail -->
                   <div class="post-thumbnail">
-                    <img src="img/b10.jpg" alt="">
+                    <img src="img/topic.jpg" alt="">
                   </div>
                   <!-- Post Content -->
                   <div class="post-content">

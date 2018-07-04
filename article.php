@@ -1,3 +1,17 @@
+<?php
+require_once "admin/connect_db.php";
+require_once "admin/function.php";
+require_once "admin/Paginator.class.php";
+
+$limit      = ( isset( $_GET['limit'] ) ) ? $_GET['limit'] : 10;
+$page       = ( isset( $_GET['page'] ) ) ? $_GET['page'] : 1;
+$links      = ( isset( $_GET['links'] ) ) ? $_GET['links'] : 4;
+$query      = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.Date_up FROM autopage4_data_topic INNER JOIN autopage4_detail_topic ON autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic AND autopage4_data_topic.IdAuto = 7 ORDER BY autopage4_data_topic.IdTopic DESC";
+
+$Paginator  = new Paginator( $connection, $query );
+
+$results    = $Paginator->getData($limit, $page);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +38,25 @@
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/relation.css" rel="stylesheet">
+
+    <style>
+    #content li{  
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+    }
+
+     #content li.active{  
+        background-color: dodgerblue;
+        color: white;
+    }
+
+    #content li:hover:not(.active) {
+        background-color: #ddd;
+    }
+</style>
 
 
 </head>
@@ -53,106 +86,47 @@
     <section id="content">
         <div class="container-fluid">
             <div class="section-header">
-                <h2>บทความ / ความรู้จากโรงพยาบาล</h2>
+                <h2>ข่าวประชาสัมพันธ์</h2>
             </div>
+
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="tab-content" id="myTabContent">
-                        <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                            <!-- Post Thumbnail -->
-                            <div class="post-thumbnail">
-                                <img src="img/b1.jpg" alt="">
+             <?php for( $i = 0; $i < count( $results->data ); $i++ ) : ?>
+                <div class="col-md-6 col-12 pt-3">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="img/topic.jpg" alt="" height="100">
                             </div>
-                            <!-- Post Content -->
-                            <div class="post-content">
-                                <a href="#" class="headline">
-                                    <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</h5>
-                                </a>
-                                <p>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in...</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="row">
-                        <div class="col-sm-12 col-xs-12 col-md-6">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                    <!-- Post Thumbnail -->
-                                    <div class="post-thumbnail">
-                                        <img src="img/b1.jpg" alt="">
-                                    </div>
-                                    <!-- Post Content -->
-                                    <div class="post-content">
-                                        <a href="#" class="headline">
-                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
-                                                Physics?
-                                            </h5>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-xs-12 col-md-6">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                    <!-- Post Thumbnail -->
-                                    <div class="post-thumbnail">
-                                        <img src="img/b1.jpg" alt="">
-                                    </div>
-                                    <!-- Post Content -->
-                                    <div class="post-content">
-                                        <a href="#" class="headline">
-                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
-                                                Physics?
-                                            </h5>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-xs-12 col-md-6">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                    <!-- Post Thumbnail -->
-                                    <div class="post-thumbnail">
-                                        <img src="img/b1.jpg" alt="">
-                                    </div>
-                                    <!-- Post Content -->
-                                    <div class="post-content">
-                                        <a href="#" class="headline">
-                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
-                                                Physics?
-                                            </h5>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-xs-12 col-md-6">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
-                                    <!-- Post Thumbnail -->
-                                    <div class="post-thumbnail">
-                                        <img src="img/b1.jpg" alt="">
-                                    </div>
-                                    <!-- Post Content -->
-                                    <div class="post-content">
-                                        <a href="#" class="headline">
-                                            <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
-                                                Physics?
-                                            </h5>
-                                        </a>
-                                    </div>
+                            <div class="col-10">
+                                <div class="card-body">
+                                    <a href="showpost_detail.php?IdTopic=<?echo $results->data[$i]['IdTopic'];?>" target="_blank">
+                                    <h5 class="card-text"><? echo $results->data[$i]['TopicName'];?></h5>
+                                    </a>
+                                    <p class="card-text pt-3">โพสเมื่อ
+                                    <? echo convertDate($results->data[$i]['Date_up']);?>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <?php endfor;?>
             </div>
+
+
         </div>
+        <div class="row">
+                <div class="col-md-4 col-0"></div>
+                <div class="col-md-4 col-12">
+                <div class="pt-3 pl-5">
+                    <?php echo $Paginator->createLinks( $links, 'pagination pagination-sm' ); ?> 
+                 </div>
+                </div>
+                
+            </div>
+
+
+
     </section>
 
 
