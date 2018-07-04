@@ -1,3 +1,8 @@
+<?php
+require_once "admin/connect_db.php";
+require_once "admin/function.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -182,7 +187,7 @@
                   <a href="http://www.happyhospital.org/manual1/index.html" target="_blank" class="cta-btn-1">เปิด E-book
                     <i class="fa fa-book" aria-hidden="true"></i>
                   </a>
-                  <a href="file/manual/manual_downloadPDF.PDF" class="cta-btn-2" target="_blank">ดาวน์โหลด PDF 
+                  <a href="file/manual/manual_downloadPDF.PDF" class="cta-btn-2" target="_blank">ดาวน์โหลด PDF
                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -225,8 +230,7 @@
               <div class="section-header">
                 <h2>ประชาสัมพันธ์</h2>
               </div>
-            <?php include "admin/connect_db.php";
-                  include "admin/function.php";
+              <?php 
             $sql = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up ";  
             $sql .= "FROM autopage4_data_topic ";
             $sql .= "INNER JOIN autopage4_detail_topic ON autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic ";
@@ -236,7 +240,7 @@
             {
             ?>
               <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
+                <div class="tab-pane fade show active">
                   <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
                     <!-- Post Thumbnail -->
                     <div class="post-thumbnail">
@@ -244,29 +248,36 @@
                     </div>
                     <!-- Post Content -->
                     <div class="post-content">
-                      <a href="#" class="headline">
-                        <h5><? echo $row['TopicName'];?></h5>
+                      <a href="showpost_detail.php?IdTopic=<?echo $row['IdTopic'];?>" target="_blank" class="headline">
+                        <h5>
+                          <? echo $row['TopicName'];?>
+                        </h5>
                       </a>
-                      <p><? echo $row['DetailTopic'];?></p>
+                      <p>
+                        <? echo $row['DetailTopic'];?>
+                      </p>
                       <!-- Post Meta -->
-
                       <div class="row">
-                      <div class="post-meta col-6">
-                          <p class="post-date">โพสเมื่อ <? echo convertDate($row['Date_up']);?></p>
+                        <div class="post-meta col-6">
+                          <p class="post-date">โพสเมื่อ
+                            <? echo convertDate($row['Date_up']);?>
+                          </p>
+                        </div>
+                        <div class="post-meta col-6">
+                          <div class="float-right">
+                            <a href="relation.php">
+                              <button class="btn btn-primary">ดูทั้งหมด</button>
+                            </a>
+                          </div>
+                        </div>
                       </div>
-                      <div class="post-meta col-6">
-                      <div class="float-right">
-                      <a href="relation.php"><button class="btn btn-primary">ดูทั้งหมด</button></a>
-                      </div>
-                      </div>
-                      </div>
-                      
+
                     </div>
                   </div>
                 </div>
               </div>
 
-             <?}?> 
+              <?}?>
             </div>
           </section>
           <!-- #Relation -->
@@ -278,91 +289,44 @@
                 <h2>บทความ / เกร็ดความรู้ </h2>
               </div>
 
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
-                  <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig mb-2" data-wow-delay="0.2s">
-                    <!-- Post Thumbnail -->
-                    <div class="post-thumbnail">
-                      <img src="img/b10.jpg" alt="">
-                    </div>
-                    <!-- Post Content -->
-                    <div class="post-content">
-                      <a href="#" class="headline">
-                        <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                      </a>
-                      <!-- Post Meta -->
-                      <div class="post-meta">
-                        <p>
-                          <a href="#" class="post-author">Katy Liu</a> on
-                          <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
+              <div class="tab-content">
+                <?php
+                $sql = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.Date_up ";  
+                $sql .= "FROM autopage4_data_topic ";
+                $sql .= "INNER JOIN autopage4_detail_topic ON autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic ";
+                $sql .= "AND autopage4_data_topic.IdAuto = 7 ORDER BY autopage4_data_topic.IdTopic DESC LIMIT 4";
+                $result = $connection -> query($sql);
+                while($row = mysqli_fetch_assoc($result)) 
+                {
+                ?>
+                <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig mb-2" data-wow-delay="0.2s">
+                  <!-- Post Thumbnail -->
+                  <div class="post-thumbnail">
+                    <img src="img/b10.jpg" alt="">
+                  </div>
+                  <!-- Post Content -->
+                  <div class="post-content">
+                    <a href="showpost_detail.php?IdTopic=<?echo $row['IdTopic'];?>" target="_blank" class="headline">
+                      <h5>
+                        <? echo $row['TopicName'];?>
+                      </h5>
+                    </a>
+                    <!-- Post Meta -->
+                    <div class="post-meta">
+                      <p>
+                        <p class="post-date">โพสเมื่อ
+                          <? echo convertDate($row['Date_up']);?>
                         </p>
-                      </div>
+                      </p>
                     </div>
                   </div>
                 </div>
+                <? } ?>
               </div>
-
-              <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig mb-2" data-wow-delay="0.2s">
-                <!-- Post Thumbnail -->
-                <div class="post-thumbnail">
-                  <img src="img/b10.jpg" alt="">
-                </div>
-                <!-- Post Content -->
-                <div class="post-content">
-                  <a href="#" class="headline">
-                    <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                  </a>
-                  <!-- Post Meta -->
-                  <div class="post-meta">
-                    <p>
-                      <a href="#" class="post-author">Katy Liu</a> on
-                      <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
-                <!-- Post Thumbnail -->
-                <div class="post-thumbnail">
-                  <img src="img/b10.jpg" alt="">
-                </div>
-                <!-- Post Content -->
-                <div class="post-content">
-                  <a href="#" class="headline">
-                    <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                  </a>
-                  <!-- Post Meta -->
-                  <div class="post-meta">
-                    <p>
-                      <a href="#" class="post-author">Katy Liu</a> on
-                      <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig mb-2" data-wow-delay="0.2s">
-                <!-- Post Thumbnail -->
-                <div class="post-thumbnail">
-                  <img src="img/b10.jpg" alt="">
-                </div>
-                <!-- Post Content -->
-                <div class="post-content">
-                  <a href="#" class="headline">
-                    <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                  </a>
-                  <!-- Post Meta -->
-                  <div class="post-meta">
-                    <p>
-                      <a href="#" class="post-author">Katy Liu</a> on
-                      <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="float-right pt-2 wow fadeInUpBig" >
-                <a href="relation.php"><button class="btn btn-primary">ดูทั้งหมด</button></a>
+              <div class="float-right pt-2 wow fadeInUpBig">
+                <a href="relation.php">
+                  <button class="btn btn-primary">ดูทั้งหมด</button>
+                </a>
               </div>
 
 
