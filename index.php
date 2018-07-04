@@ -253,17 +253,10 @@
                         <? echo $row['DetailTopic'];?>
                       </p>
                       <!-- Post Meta -->
-<<<<<<< HEAD
-
-                      <div class="row">
-                      <div class="post-meta col-6">
-                          <p class="post-date">โพสเมื่อ <? echo convertDate($row['Date_up']);?></p>
-=======
                       <div class="post-meta">
                         <p class="post-date">โพสเมื่อ
                           <? echo convertDate($row['Date_up']);?>
                         </p>
->>>>>>> 7afb99f7f043f4fdd12f6c7386d752ff5cb5b5c4
                       </div>
                       <div class="post-meta col-6">
                       <div class="float-right">
@@ -319,33 +312,6 @@
                 <? } ?>
               </div>
 
-<<<<<<< HEAD
-              <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig mb-2" data-wow-delay="0.2s">
-                <!-- Post Thumbnail -->
-                <div class="post-thumbnail">
-                  <img src="img/b10.jpg" alt="">
-                </div>
-                <!-- Post Content -->
-                <div class="post-content">
-                  <a href="#" class="headline">
-                    <h5>How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
-                  </a>
-                  <!-- Post Meta -->
-                  <div class="post-meta">
-                    <p>
-                      <a href="#" class="post-author">Katy Liu</a> on
-                      <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="float-right pt-2 wow fadeInUpBig" data-wow-delay="0.2s">
-                <a href="relation.php"><button class="btn btn-primary">ดูทั้งหมด</button></a>
-              </div>
-
-
-=======
->>>>>>> 7afb99f7f043f4fdd12f6c7386d752ff5cb5b5c4
             </div>
           </section>
         </div>
