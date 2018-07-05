@@ -5,7 +5,7 @@ class Paginator {
     private $_page;
     private $_query;
     private $_total;
-
+    
     public function __construct( $connection, $query ) {
      
         $this->_connection = $connection;

@@ -250,11 +250,11 @@ require_once "admin/function.php";
                     <div class="post-content">
                       <a href="showpost_detail.php?IdTopic=<?echo $row['IdTopic'];?>" target="_blank" class="headline">
                         <h5>
-                          <? echo $row['TopicName'];?>
+                          <? echo ThaiIToUTF8($row['TopicName']);?>
                         </h5>
                       </a>
                       <p>
-                        <? echo $row['DetailTopic'];?>
+                        <? echo ThaiIToUTF8($row['DetailTopic']);?>
                       </p>
                       <!-- Post Meta -->
                       <div class="row">
@@ -308,7 +308,7 @@ require_once "admin/function.php";
                   <div class="post-content">
                     <a href="showpost_detail.php?IdTopic=<?echo $row['IdTopic'];?>" target="_blank" class="headline">
                       <h5>
-                        <? echo $row['TopicName'];?>
+                        <? echo ThaiIToUTF8($row['TopicName']);?>
                       </h5>
                     </a>
                     <!-- Post Meta -->

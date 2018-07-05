@@ -99,8 +99,8 @@ $results    = $Paginator->getData($limit, $page);
                             </div>
                             <div class="col-10">
                                 <div class="card-body">
-                                    <a href="showpost_detail.php?IdTopic=<?echo $results->data[$i]['IdTopic'];?>" target="_blank">
-                                    <h5 class="card-text"><? echo $results->data[$i]['TopicName'];?></h5>
+                                    <a href="showpost_detail.php?IdTopic=<?echo ThaiIToUTF8($results->data[$i]['IdTopic']);?>" target="_blank">
+                                    <h5 class="card-text"><? echo ThaiIToUTF8($results->data[$i]['TopicName']);?></h5>
                                     </a>
                                     <p class="card-text pt-3">โพสเมื่อ
                                     <? echo convertDate($results->data[$i]['Date_up']);?>

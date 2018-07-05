@@ -101,10 +101,10 @@ $results    = $Paginator->getData($limit, $page);
                                 </div>
                                 <!-- Post Content -->
                                 <div class="post-content mb-1">
-                                    <a href="showpost_detail.php?IdTopic=<?echo $results->data[$i]['IdTopic'];?>" class="headline" target="_blank">
-                                        <h5><?  echo $results->data[$i]['TopicName'];?></h5>
+                                    <a href="showpost_detail.php?IdTopic=<?echo ThaiIToUTF8($results->data[$i]['IdTopic']);?>" class="headline" target="_blank">
+                                        <h5><?  echo ThaiIToUTF8($results->data[$i]['TopicName']);?></h5>
                                     </a>
-                                    <p><? echo $results->data[$i]['DetailTopic'];?></p>
+                                    <p><? echo ThaiIToUTF8($results->data[$i]['DetailTopic']);?></p>
                                 <!-- Post Meta -->
                                     <div class="post-meta">
                                         <p class="post-date">โพสเมื่อ <? echo convertDate($results->data[$i]['Date_up']);?></p>

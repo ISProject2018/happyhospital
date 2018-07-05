@@ -62,12 +62,12 @@ $IdTopic = $_GET['IdTopic'];
     $sql .= "INNER JOIN autopage4_data_topic ON autopage4_data_topic.IdTopic = autopage4_page_topic.IdTopic ";
     $sql .= "AND autopage4_data_topic.IdTopic = $IdTopic";
     $result = $connection -> query($sql);
-    while($row = mysqli_fetch_assoc($result)) 
+    while($row = mysqli_fetch_array($result)) 
     {
     ?>
-        <h2 class="pb-3"><? echo $row['TitleDetail'];?></h2>
+        <h2 class="pb-3"><? echo ThaiIToUTF8($row['TitleDetail']);?></h2>
         <hr>
-        <div><?echo $row['DataDetail'];?></div>
+        <div><?echo ThaiIToUTF8($row['DataDetail']);?></div>
         <?}?>
     </div>
 
@@ -97,3 +97,5 @@ $IdTopic = $_GET['IdTopic'];
 
 </body>
 </html>
+
+36
