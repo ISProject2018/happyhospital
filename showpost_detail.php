@@ -98,4 +98,3 @@ $IdTopic = $_GET['IdTopic'];
 </body>
 </html>
 
-36
