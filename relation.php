@@ -8,7 +8,7 @@ require_once "admin/Paginator.class.php";
 $limit      = ( isset( $_GET['limit'] ) ) ? $_GET['limit'] : 6;
 $page       = ( isset( $_GET['page'] ) ) ? $_GET['page'] : 1;
 $links      = ( isset( $_GET['links'] ) ) ? $_GET['links'] : 7;
-$query      = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName,autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up FROM autopage4_data_topic , autopage4_detail_topic WHERE autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic AND autopage4_data_topic.IdAuto = 29 ORDER by IdTopic DESC";
+$query      = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.PicName , autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up FROM autopage4_data_topic , autopage4_detail_topic WHERE autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic AND autopage4_data_topic.IdAuto = 29 ORDER by IdTopic DESC";
 
 $Paginator  = new Paginator( $connection, $query );
 
@@ -42,26 +42,8 @@ $results    = $Paginator->getData($limit, $page);
     <link href="css/style.css" rel="stylesheet">
     <link href="css/relation.css" rel="stylesheet">
 
-
 </head>
-<style>
-    #content li{  
-        color: black;
-        float: left;
-        padding: 8px 16px;
-        text-decoration: none;
-        transition: background-color .3s;
-    }
 
-     #content li.active{  
-        background-color: dodgerblue;
-        color: white;
-    }
-
-    #content li:hover:not(.active) {
-        background-color: #ddd;
-    }
-</style>
 <body>
     <!-- header -->
     <?php $page = "relation"; include "php/header.php";?>
@@ -97,12 +79,12 @@ $results    = $Paginator->getData($limit, $page);
                             <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
                                 <!-- Post Thumbnail -->
                                 <div class="post-thumbnail">
-                                    <img src="img/b1.jpg" alt="">
+                                    <img src="autopagev4/picture/<?echo $results->data[$i]['PicName'];?>" alt="">
                                 </div>
                                 <!-- Post Content -->
                                 <div class="post-content mb-1">
                                     <a href="showpost_detail.php?IdTopic=<?echo ThaiIToUTF8($results->data[$i]['IdTopic']);?>" class="headline" target="_blank">
-                                        <h5><?  echo ThaiIToUTF8($results->data[$i]['TopicName']);?></h5>
+                                        <h5><?  echo $results->data[$i]['TopicName'];?></h5>
                                     </a>
                                     <p><? echo ThaiIToUTF8($results->data[$i]['DetailTopic']);?></p>
                                 <!-- Post Meta -->

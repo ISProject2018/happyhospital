@@ -256,6 +256,18 @@
   width: 100%; 
 }
 
+#relation .single-blog-post .post-thumbnail {
+  position: relative;
+  z-index: 1; 
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#relation .single-blog-post .post-thumbnail img {
+  width: 100%; 
+  height: 300px;
+}
+
 .single-blog-post .post-content {
   padding: 20px 30px; 
 }

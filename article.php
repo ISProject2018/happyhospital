@@ -38,27 +38,7 @@ $results    = $Paginator->getData($limit, $page);
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/relation.css" rel="stylesheet">
-
-    <style>
-    #content li{  
-        color: black;
-        float: left;
-        padding: 8px 16px;
-        text-decoration: none;
-        transition: background-color .3s;
-    }
-
-     #content li.active{  
-        background-color: dodgerblue;
-        color: white;
-    }
-
-    #content li:hover:not(.active) {
-        background-color: #ddd;
-    }
-</style>
-
-
+    
 </head>
 
 <body>
@@ -90,7 +70,7 @@ $results    = $Paginator->getData($limit, $page);
             </div>
 
             <div class="row">
-             <?php for( $i = 0; $i < count( $results->data ); $i++ ) : ?>
+                <?php for( $i = 0; $i < count( $results->data ); $i++ ) : ?>
                 <div class="col-md-6 col-12 pt-3">
                     <div class="card">
                         <div class="row">
@@ -100,10 +80,12 @@ $results    = $Paginator->getData($limit, $page);
                             <div class="col-10">
                                 <div class="card-body">
                                     <a href="showpost_detail.php?IdTopic=<?echo ThaiIToUTF8($results->data[$i]['IdTopic']);?>" target="_blank">
-                                    <h5 class="card-text"><? echo ThaiIToUTF8($results->data[$i]['TopicName']);?></h5>
+                                        <h5 class="card-text">
+                                            <? echo ThaiIToUTF8($results->data[$i]['TopicName']);?>
+                                        </h5>
                                     </a>
                                     <p class="card-text pt-3">โพสเมื่อ
-                                    <? echo convertDate($results->data[$i]['Date_up']);?>
+                                        <? echo convertDate($results->data[$i]['Date_up']);?>
                                     </p>
                                 </div>
                             </div>
@@ -116,14 +98,13 @@ $results    = $Paginator->getData($limit, $page);
 
         </div>
         <div class="row">
-                <div class="col-md-4 col-0"></div>
-                <div class="col-md-4 col-12">
+            <div class="col-md-4 col-0"></div>
+            <div class="col-md-4 col-12">
                 <div class="pt-3 pl-5">
-                    <?php echo $Paginator->createLinks( $links, 'pagination pagination-sm' ); ?> 
-                 </div>
+                    <?php echo $Paginator->createLinks( $links, 'pagination pagination-sm' ); ?>
                 </div>
-                
             </div>
+        </div>
 
 
 

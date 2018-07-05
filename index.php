@@ -231,7 +231,7 @@ require_once "admin/function.php";
                 <h2>ประชาสัมพันธ์</h2>
               </div>
               <?php 
-            $sql = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up ";  
+            $sql = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.PicName  , autopage4_detail_topic.DetailTopic , autopage4_detail_topic.Date_up ";  
             $sql .= "FROM autopage4_data_topic ";
             $sql .= "INNER JOIN autopage4_detail_topic ON autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic ";
             $sql .= "AND autopage4_data_topic.IdAuto = 29 ORDER BY autopage4_data_topic.IdTopic DESC LIMIT 1";
@@ -244,7 +244,7 @@ require_once "admin/function.php";
                   <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
                     <!-- Post Thumbnail -->
                     <div class="post-thumbnail">
-                      <img src="img/b1.jpg" alt="">
+                      <img src="autopagev4/picture/<?echo $row['PicName'];;?>" alt="">
                     </div>
                     <!-- Post Content -->
                     <div class="post-content">

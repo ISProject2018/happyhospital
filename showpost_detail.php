@@ -34,6 +34,10 @@ $IdTopic = $_GET['IdTopic'];
   td{
     border: none !important;
   }
+  #content p{
+    text-align:center !important;
+  }
+
   </style>
   
   <!-- =======================================================
