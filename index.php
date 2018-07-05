@@ -374,10 +374,10 @@ require_once "admin/function.php";
               ให้ด้วยเต็มใจ ทำด้วยเต็มแรงแค่นั้นก็เพียงพอ
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
+            <img src="img/girl.png" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
             <div class="fixed-bottom" style="bottom: 14%;">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+              <h3>pie_maple</h3>
+              <h4>อาสาสมัคร</h4>
             </div>
           </div>
 
@@ -387,10 +387,10 @@ require_once "admin/function.php";
               แลผู้ป่วยน้อยใหญ่ที่มากหลาย บอกด้วยยิ้มไมตรีที่มากมาย บอกมิตรและสหาย ป้าผู้นี้ผู้มาเยี่ยน
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <img src="img/testimonial-2.jpg" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
+            <img src="img/girl.png" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
             <div class="fixed-bottom" style="bottom: 14%;">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
+              <h3>ป้าจุ๋ม</h3>
+              <h4>อาสาสมัคร</h4>
             </div>
           </div>
 
@@ -399,10 +399,10 @@ require_once "admin/function.php";
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> หากชีวิตหนึ่งที่เกิดมาได้มีโอกาสเป็นผู้ให้กับเค้าบ้าง ก็คงจะมีคุณค่ามากกว่าการเป็นผู้รับแต่ฝ่ายเดียว
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <img src="img/testimonial-3.jpg" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
+            <img src="img/boy.png" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
             <div class="fixed-bottom" style="bottom: 14%;">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
+              <h3>เต้</h3>
+              <h4>อาสาสมัคร</h4>
             </div>
           </div>
 
@@ -411,10 +411,10 @@ require_once "admin/function.php";
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> แค่คุณเป็นผู้ให้ คุณก็จะรู้สึกถึงความสุขที่ได้ให้นั้นทันทีอยู่แล้ว...ไม่เชื่อลองดูสิค่ะ
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <img src="img/testimonial-4.jpg" class="testimonial-img" style="position:fixed;bottom: 25%;left:37%;">
+            <img src="img/girl.png" class="testimonial-img" style="position:fixed;bottom: 25%;left:37%;">
             <div class="fixed-bottom" style="bottom: 14%;">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
+              <h3>เอื้อยจ้า</h3>
+              <h4>อาสาสมัคร</h4>
             </div>
           </div>
 
@@ -423,7 +423,7 @@ require_once "admin/function.php";
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt=""> มีธรรมะในหัวใจ ปฏิบัติตนตามหลักคำสอนของพระพุทธศาสนา จะดำเนินชีวิตอย่างมีความสุข
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <img src="img/testimonial-5.jpg" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
+            <img src="img/girl.png" class="testimonial-img" alt="" style="position:fixed;bottom: 25%;left:37%;">
             <div class="fixed-bottom" style="bottom: 14%;">
               <h3>ฝน</h3>
               <h4>อาสาสมัคร</h4>
