@@ -19,6 +19,7 @@
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
@@ -104,7 +105,9 @@
                             นันทนาการและการทำกลุ่มผู้ปกครองจึงมีการทำไม่สม่ำเสมอในบางหอผู้ป่วยและบาง หอผู้ป่วยก็ไม่มีกิจกรรมเหล่านี้เลย</p>
                     </div>
                     <div class="col-lg-6 property-img">
+                        <a href="img/aboutus/ (1).JPG" class="property-popup">
                         <img src="img/aboutus/ (1).jpg" alt="" height="320" width="500" class="ml-3" >
+                        </a>
                     </div>
                 </div>
 
@@ -119,7 +122,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 property-img">
+                        <a href="img/aboutus/ (4).JPG" class="property-popup">
                         <img src="img/aboutus/ (4).JPG" alt="" height="360" width="520">
+                        </a>
                     </div>
                     <div class="col-lg-6 content">
                         <p style="text-indent:30px;">การดูแลด้านจิตใจทั้งเด็กและผู้ปกครองถูกลดความสำคัญลงเพราะต้องให้ความสำคัญกับโรคที่เด็กเป็นมากกว่า
@@ -157,7 +162,9 @@
                             อาสาเข้ามาทำงานในโรงพยาบาลหรือสถานีอนามัยในสังกัด เรียกว่า “อาสาสมัครในโรงพยาบาล (อส.รพ.)”</p>
                     </div>
                     <div class="col-lg-6 property-img">
+                        <a href="img/aboutus/ (3).JPG" class="property-popup">
                         <img src="img/aboutus/ (3).JPG" alt="" height="310" width="500" class="ml-3">
+                        </a>
                     </div>
 
                 </div>
@@ -173,7 +180,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 property-img">
+                        <a href="img/aboutus/ (6).JPG" class="property-popup">
                         <img src="img/aboutus/ (6).jpg" alt="" height="340">
+                        </a>
                     </div>
 
                     <div class="col-lg-6 content">
