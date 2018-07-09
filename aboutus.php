@@ -67,7 +67,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 property-img">
-                        <img src="img/about-img.jpg" alt="">
+                        <a href="img/aboutus/ (2).JPG" class="property-popup">
+                        <img src="img/aboutus/ (2).JPG" alt="" height="350">
+                        </a>
                     </div>
 
                     <div class="col-lg-6 content">
@@ -102,7 +104,7 @@
                             นันทนาการและการทำกลุ่มผู้ปกครองจึงมีการทำไม่สม่ำเสมอในบางหอผู้ป่วยและบาง หอผู้ป่วยก็ไม่มีกิจกรรมเหล่านี้เลย</p>
                     </div>
                     <div class="col-lg-6 property-img">
-                        <img src="img/about-img.jpg" alt="">
+                        <img src="img/aboutus/ (1).jpg" alt="" height="320" width="500" class="ml-3" >
                     </div>
                 </div>
 
@@ -117,7 +119,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 property-img">
-                        <img src="img/about-img.jpg" alt="">
+                        <img src="img/aboutus/ (4).JPG" alt="" height="360" width="520">
                     </div>
                     <div class="col-lg-6 content">
                         <p style="text-indent:30px;">การดูแลด้านจิตใจทั้งเด็กและผู้ปกครองถูกลดความสำคัญลงเพราะต้องให้ความสำคัญกับโรคที่เด็กเป็นมากกว่า
@@ -155,7 +157,7 @@
                             อาสาเข้ามาทำงานในโรงพยาบาลหรือสถานีอนามัยในสังกัด เรียกว่า “อาสาสมัครในโรงพยาบาล (อส.รพ.)”</p>
                     </div>
                     <div class="col-lg-6 property-img">
-                        <img src="img/about-img.jpg" alt="">
+                        <img src="img/aboutus/ (3).JPG" alt="" height="310" width="500" class="ml-3">
                     </div>
 
                 </div>
@@ -171,7 +173,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 property-img">
-                        <img src="img/about-img.jpg" alt="">
+                        <img src="img/aboutus/ (6).jpg" alt="" height="340">
                     </div>
 
                     <div class="col-lg-6 content">
@@ -254,11 +256,13 @@
     <script src="lib/superfish/superfish.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/magnific-popup/magnific-popup.min.js"></script>
     <script src="lib/sticky/sticky.js"></script>
 
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+    <script src="js/volunteer.js"></script>
 
 </body>
 

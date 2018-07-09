@@ -26,43 +26,6 @@
   }
 }
 
-#property .content h2 {
-  color: #0171b9;
-  font-weight: 700;
-  font-size: 36px;
- 
-}
-
-#property .content h3 {
-  color: #555;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  font-style: italic;
-}
-
-#property .content p {
-  line-height: 26px;
-}
-
-#property .content p:last-child {
-  margin-bottom: 0;
-}
-
-#property .content i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #df176f;
-}
-
-#property .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-#property .content ul li {
-  padding-bottom: 10px;
-}
 
 /* content
 --------------------------------*/
@@ -78,6 +41,8 @@
   background: #df176f;
 
 }
+
+
 
 /* downloadform
 --------------------------------*/

@@ -177,7 +177,7 @@ require_once "admin/function.php";
             <div class="box wow fadeInLeft">
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                  <img src="img/manual/h1.jpg">
+                <img src="img/manual/h1.jpg">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 moblie-btn">
                   <h4 class="title">คู่มืออาสาสมัครในโรงพยาบาล

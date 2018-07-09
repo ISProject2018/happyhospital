@@ -91,11 +91,11 @@
         <div class="row no-gutters">
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
-                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
+              <a href="img/volunteer/(1).JPG" class="portfolio-popup">
+                <img src="img/volunteer/(1).JPG" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 1</h2>
+                    <h2 class="wow fadeInUp"></h2>
                   </div>
                 </div>
               </a>
@@ -104,11 +104,11 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
-                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
+              <a href="img/volunteer/(2).JPG" class="portfolio-popup">
+                <img src="img/volunteer/(2).JPG" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 2</h2>
+                    <h2 class="wow fadeInUp"></h2>
                   </div>
                 </div>
               </a>
@@ -117,11 +117,11 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
-                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
+              <a href="img/volunteer/(3).JPG" class="portfolio-popup">
+                <img src="img/volunteer/(3).JPG" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 3</h2>
+                    <h2 class="wow fadeInUp"></h2>
                   </div>
                 </div>
               </a>
@@ -130,11 +130,11 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
-                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
+              <a href="img/volunteer/(4).JPG" class="portfolio-popup">
+                <img src="img/volunteer/(4).JPG" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 4</h2>
+                    <h2 class="wow fadeInUp"></h2>
                   </div>
                 </div>
               </a>
@@ -143,11 +143,11 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
-                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
+              <a href="img/volunteer/(5).JPG" class="portfolio-popup">
+                <img src="img/volunteer/(5).JPG" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 5</h2>
+                    <h2 class="wow fadeInUp"></h2>
                   </div>
                 </div>
               </a>
@@ -156,11 +156,11 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
-                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
+              <a href="img/volunteer/(6).JPG" class="portfolio-popup">
+                <img src="img/volunteer/(6).JPG" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 6</h2>
+                    <h2 class="wow fadeInUp"></h2>
                   </div>
                 </div>
               </a>
@@ -169,11 +169,11 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
-                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
+              <a href="img/volunteer/(7).JPG" class="portfolio-popup">
+                <img src="img/volunteer/(7).JPG" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 7</h2>
+                    <h2 class="wow fadeInUp"></h2>
                   </div>
                 </div>
               </a>
@@ -182,11 +182,11 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/portfolio/_DSC7665-01.jpeg" class="portfolio-popup">
-                <img src="img/portfolio/_DSC7665-01.jpeg" alt="">
+              <a href="img/volunteer/(8).JPG" class="portfolio-popup">
+                <img src="img/volunteer/(8).JPG" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
-                    <h2 class="wow fadeInUp">Portfolio Item 8</h2>
+                    <h2 class="wow fadeInUp"></h2>
                   </div>
                 </div>
               </a>
