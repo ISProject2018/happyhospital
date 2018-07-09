@@ -97,14 +97,8 @@ $results    = $Paginator->getData($limit, $page);
                     </div>
                 <?php endfor;?>    
             </div>
-            <div class="row">
-                <div class="col-md-5 col-0"></div>
-                <div class="col-md-4 col-12">
-                <div class="pt-3">
-                    <?php echo $Paginator->createLinks( $links, 'pagination pagination-sm' ); ?> 
-                 </div>
-                </div>
-            
+            <div class="d-flex justify-content-center mt-3">
+                <?php echo $Paginator->createLinks( $links, 'pagination pagination-sm' ); ?>
             </div>
             
         </div>
