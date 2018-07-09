@@ -86,7 +86,7 @@
 
   <!-- donate -->
     <div class="donate">
-      <a href="#tickets">
+      <a href="http://www.mirror.or.th/donation/">
           <div class="row">
               <div class="col-2">
                   <div class="img">
