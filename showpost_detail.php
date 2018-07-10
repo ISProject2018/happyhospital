@@ -13,7 +13,7 @@ $IdTopic = $_GET['IdTopic'];
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/logo.jpg" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">

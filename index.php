@@ -14,7 +14,7 @@ require_once "admin/function.php";
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/logo.jpg" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Bootstrap CSS File -->
@@ -325,7 +325,7 @@ require_once "admin/function.php";
                 <? } ?>
               </div>
               <div class="float-right pt-2 wow fadeInUpBig">
-                <a href="relation.php">
+                <a href="article.php">
                   <button class="btn btn-primary">ดูทั้งหมด</button>
                 </a>
               </div>
@@ -350,8 +350,35 @@ require_once "admin/function.php";
         </div>
 
         <div class="owl-carousel clients-carousel">
-          <img src="img/clients/Jidasa.gif" alt="">
-          <img src="img/clients/Greenpeace-logo.png" alt="">
+        <a href="http://www.childrenhospital.go.th/html/2014/index.php" target="_blank">
+        <img src="img/clients/1.jpg" alt="" height="200"></a>
+        <a href="https://med.mahidol.ac.th/rama_hospital/" target="_blank">
+        <img src="img/clients/2.jpg"alt="" height="200"></a>
+        <a href="http://www.pmk.ac.th/index.php" target="_blank">
+        <img src="img/clients/3.jpg" alt="" height="200" ></a>
+        <a href="http://pcmc.swu.ac.th/" target="_blank">
+        <img src="img/clients/4.jpg"alt="" height="200"></a>
+        <a href="http://www.rajavithi.go.th/" target="_blank">
+        <img src="img/clients/5.jpg"alt="" height="200"></a>
+        <a href="http://www.hospital.tu.ac.th/ab_patient_TUHmap.php" target="_blank">
+        <img src="img/clients/6.jpg"alt="" height="200"></a>
+        <a href="http://www.bhumibolhospital.rtaf.mi.th/" target="_blank">
+        <img src="img/clients/7.jpg"alt="" height="200"></a>
+        <a href="http://www.chulabhornhospital.com/" target="_blank">
+        <img src="img/clients/8.jpg"alt="" height="200"></a>
+        <a href="http://www.policehospital.org/content/home.php" target="_blank">
+        <img src="img/clients/9.jpg"alt="" height="200"></a>
+        <a href="https://taejai.com/th/" target="_blank">
+        <img src="img/clients/10.jpg"alt="" height="200"></a>
+        <a href="http://www.budnet.org/" target="_blank">
+        <img src="img/clients/11.jpg"alt="" height="200"></a>
+        <a href="http://www.volunteerspirit.org/" target="_blank">
+        <img src="img/clients/12.jpg"alt="" height="200"></a>
+        <a href="https://www.inspiring.org/" target="_blank">
+        <img src="img/clients/13.jpg"alt="" height="200"></a>
+        <a href="https://www.jitarsabank.com/org/profile/14?page=2" target="_blank">
+        <img src="img/clients/14.jpg"alt="" height="200"></a>
+          
         </div>
 
       </div>

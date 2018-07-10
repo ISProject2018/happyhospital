@@ -41,10 +41,10 @@
                 <a href="activity.php" class="scrollto">กิจกรรมอาสาสมัคร ใน รพ.</a>
               </li>
               <li>
-                <a href="#" class="scrollto">กลุ่มเป้าหมาย</a>
+                <a href="goal.php" class="scrollto">กลุ่มเป้าหมาย</a>
               </li>
               <li>
-                <a href="#" class="scrollto">การเตรียมความพร้อม</a>
+                <a href="Prepare.php" class="scrollto">การเตรียมความพร้อม</a>
               </li>
               <li>
                 <a href="faq.php" class="scrollto">FAQ</a>
@@ -86,7 +86,7 @@
 
   <!-- donate -->
     <div class="donate">
-      <a href="http://www.mirror.or.th/donation/">
+      <a href="http://www.mirror.or.th/donation/" target="_blank">
           <div class="row">
               <div class="col-2">
                   <div class="img">

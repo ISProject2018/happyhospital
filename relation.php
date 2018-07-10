@@ -26,7 +26,7 @@ $results    = $Paginator->getData($limit, $page);
     <meta content="" name="description">
 
     <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
+    <link href="img/logo.jpg" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Bootstrap CSS File -->
@@ -84,7 +84,7 @@ $results    = $Paginator->getData($limit, $page);
                                 <!-- Post Content -->
                                 <div class="post-content mb-1">
                                     <a href="showpost_detail.php?IdTopic=<?echo ThaiIToUTF8($results->data[$i]['IdTopic']);?>" class="headline" target="_blank">
-                                        <h5><?  echo $results->data[$i]['TopicName'];?></h5>
+                                        <h5><?  echo ThaiIToUTF8($results->data[$i]['TopicName']);?></h5>
                                     </a>
                                     <p><? echo ThaiIToUTF8($results->data[$i]['DetailTopic']);?></p>
                                 <!-- Post Meta -->
