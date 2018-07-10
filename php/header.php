@@ -55,13 +55,16 @@
             </ul>
           </li>
           <li class="menu-has-children">
-            <a href="index.php#services">ชุดความรู้อาสาสมัครใน รพ.</a>
+            <a href="services.php">ชุดความรู้อาสาสมัครใน รพ.</a>
             <ul>
               <li>
                 <a href="index.php#services">คู่มืออาสาสมัคร ใน รพ.</a>
               </li>
               <li>
                 <a href="index.php#services">การเตรียมความพร้อมเบื้องต้น สำหรับอาสาสมัครในโรงพยาบาล</a>
+              </li>
+              <li>
+                <a href="services.php">ทั้งหมด</a>
               </li>
             </ul>
           </li>

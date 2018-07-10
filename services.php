@@ -6,7 +6,9 @@ require_once "admin/Paginator.class.php";
 $limit      = ( isset( $_GET['limit'] ) ) ? $_GET['limit'] : 10;
 $page       = ( isset( $_GET['page'] ) ) ? $_GET['page'] : 1;
 $links      = ( isset( $_GET['links'] ) ) ? $_GET['links'] : 4;
-$query      = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.Date_up FROM autopage4_data_topic INNER JOIN autopage4_detail_topic ON autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic AND autopage4_data_topic.IdAuto = 7 ORDER BY autopage4_data_topic.IdTopic DESC";
+$query      = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.Date_up ";
+$query      .= "FROM autopage4_data_topic INNER JOIN autopage4_detail_topic ON autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic ";
+$query      .= "AND autopage4_data_topic.IdAuto = 8 AND autopage4_data_topic.StShow = 1 ORDER BY autopage4_data_topic.IdTopic DESC ";
 
 $Paginator  = new Paginator( $connection, $query );
 
@@ -51,7 +53,7 @@ $results    = $Paginator->getData($limit, $page);
     <section id="intro">
 
         <div class="intro-content">
-            <h2>บทความ / เกร็ดความรู้</h2>
+            <h2>ชุดความรู้อาสาสมัคร</h2>
         </div>
         <div id="intro-carousel" class="owl-carousel">
             <div class="item" style="background-image: url('img/intro-carousel/1.jpg');"></div>
@@ -66,7 +68,7 @@ $results    = $Paginator->getData($limit, $page);
     <section id="content">
         <div class="container-fluid">
             <div class="section-header">
-                <h2>บทความ เกร็ดความรู้</h2>
+                <h2>ชุดความรู้อาสาสมัคร</h2>
             </div>
 
             <div class="row">
