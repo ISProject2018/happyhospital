@@ -1,3 +1,22 @@
+<?php
+require_once "admin/connect_db.php";
+require_once "admin/function.php";
+require_once "admin/Paginator.class.php";
+
+
+$limit      = ( isset( $_GET['limit'] ) ) ? $_GET['limit'] : 6;
+$page       = ( isset( $_GET['page'] ) ) ? $_GET['page'] : 1;
+$links      = ( isset( $_GET['links'] ) ) ? $_GET['links'] : 7;
+$query      = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.PicName , autopage4_detail_topic.Date_up ";
+$query      .= "FROM autopage4_data_topic , autopage4_detail_topic ";
+$query      .= "WHERE autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic AND autopage4_data_topic.IdAuto = 36 ORDER by IdTopic DESC";
+
+$Paginator  = new Paginator( $connection, $query );
+
+$results    = $Paginator->getData($limit, $page);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,7 +69,31 @@
     </section>
     <!-- #intro -->
 
-
+    <section id="content">
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>ภาพ / วีดีโอ กิจกรรม</h2>
+            </div>
+            <div class="row">
+                <?php for( $i = 0; $i < count( $results->data ); $i++ ) : ?>
+            
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="tab-content">
+                            <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
+                                <!-- Post Thumbnail -->
+                                <div class="post-thumbnail">
+                                    <img src="autopagev4/picture/<?echo $results->data[$i]['PicName'];?>" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php endfor;?>    
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <?php echo $Paginator->createLinks( $links, 'pagination pagination-sm' ); ?>
+            </div>
+        </div>
+    </section>
 
 
     <!-- footer -->
