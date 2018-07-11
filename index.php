@@ -129,7 +129,12 @@ require_once "admin/function.php";
         </div>
         <div>
           <table class="table table-respontive">
-          <tr>
+            <tr>
+              <th>สถานที่ทำงาน</th>
+              <th class="text-center">วัน</th>
+              <th class="text-center">เวลา</th>
+            </tr>
+            <tr>
               <td>โรงพยาบาลภูมิพลอดุลยเดช</td>
               <td class="text-center">วันอังคาร</td>
               <td class="text-center">10.00 - 12.00 น.</td>
@@ -182,7 +187,7 @@ require_once "admin/function.php";
             <div class="box wow fadeInLeft">
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <img src="img/manual/h1.jpg">
+                  <img src="img/manual/h1.jpg">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 moblie-btn">
                   <h4 class="title">คู่มืออาสาสมัครในโรงพยาบาล
@@ -354,37 +359,52 @@ require_once "admin/function.php";
         </div>
 
         <div class="owl-carousel clients-carousel">
-        <a href="http://www.childrenhospital.go.th/html/2014/index.php" target="_blank">
-        <img src="img/clients/1.jpg" alt="" height="200"></a>
-        <a href="https://med.mahidol.ac.th/rama_hospital/" target="_blank">
-        <img src="img/clients/2.jpg"alt="" height="200"></a>
-        <a href="http://pcmc.swu.ac.th/" target="_blank">
-        <img src="img/clients/3.jpg" alt="" height="200" ></a>
-        <a href="http://pcmc.swu.ac.th/" target="_blank">
-        <img src="img/clients/4.jpg"alt="" height="200"></a>
-        <a href="http://www.rajavithi.go.th/" target="_blank">
-        <img src="img/clients/5.jpg"alt="" height="200"></a>
-        <a href="http://www.hospital.tu.ac.th/ab_patient_TUHmap.php" target="_blank">
-        <img src="img/clients/6.jpg"alt="" height="200"></a>
-        <a href="http://www.bhumibolhospital.rtaf.mi.th/" target="_blank">
-        <img src="img/clients/7.jpg"alt="" height="200"></a>
-        <a href="http://www.chulabhornhospital.com/" target="_blank">
-        <img src="img/clients/8.jpg"alt="" height="200"></a>
-        <a href="http://www.policehospital.org/content/home.php" target="_blank">
-        <img src="img/clients/9.jpg"alt="" height="200"></a>
-        <a href="https://taejai.com/th/" target="_blank">
-        <img src="img/clients/10.jpg"alt="" height="200"></a>
-        <a href="http://www.budnet.org/" target="_blank">
-        <img src="img/clients/11.jpg"alt="" height="200"></a>
-        <a href="http://www.volunteerspirit.org/" target="_blank">
-        <img src="img/clients/12.jpg"alt="" height="200"></a>
-        <a href="https://www.inspiring.org/" target="_blank">
-        <img src="img/clients/13.jpg"alt="" height="200"></a>
-        <a href="https://www.jitarsabank.com/org/profile/14?page=2" target="_blank">
-        <img src="img/clients/14.jpg"alt="" height="200"></a>
-        <a href="http://www.pmk.ac.th/index.php" target="_blank">
-        <img src="img/clients/15.jpg"alt="" height="200"></a>
-          
+          <a href="http://www.childrenhospital.go.th/html/2014/index.php" target="_blank">
+            <img src="img/clients/1.jpg" alt="" height="200">
+          </a>
+          <a href="https://med.mahidol.ac.th/rama_hospital/" target="_blank">
+            <img src="img/clients/2.jpg" alt="" height="200">
+          </a>
+          <a href="http://pcmc.swu.ac.th/" target="_blank">
+            <img src="img/clients/3.jpg" alt="" height="200">
+          </a>
+          <a href="http://pcmc.swu.ac.th/" target="_blank">
+            <img src="img/clients/4.jpg" alt="" height="200">
+          </a>
+          <a href="http://www.rajavithi.go.th/" target="_blank">
+            <img src="img/clients/5.jpg" alt="" height="200">
+          </a>
+          <a href="http://www.hospital.tu.ac.th/ab_patient_TUHmap.php" target="_blank">
+            <img src="img/clients/6.jpg" alt="" height="200">
+          </a>
+          <a href="http://www.bhumibolhospital.rtaf.mi.th/" target="_blank">
+            <img src="img/clients/7.jpg" alt="" height="200">
+          </a>
+          <a href="http://www.chulabhornhospital.com/" target="_blank">
+            <img src="img/clients/8.jpg" alt="" height="200">
+          </a>
+          <a href="http://www.policehospital.org/content/home.php" target="_blank">
+            <img src="img/clients/9.jpg" alt="" height="200">
+          </a>
+          <a href="https://taejai.com/th/" target="_blank">
+            <img src="img/clients/10.jpg" alt="" height="200">
+          </a>
+          <a href="http://www.budnet.org/" target="_blank">
+            <img src="img/clients/11.jpg" alt="" height="200">
+          </a>
+          <a href="http://www.volunteerspirit.org/" target="_blank">
+            <img src="img/clients/12.jpg" alt="" height="200">
+          </a>
+          <a href="https://www.inspiring.org/" target="_blank">
+            <img src="img/clients/13.jpg" alt="" height="200">
+          </a>
+          <a href="https://www.jitarsabank.com/org/profile/14?page=2" target="_blank">
+            <img src="img/clients/14.jpg" alt="" height="200">
+          </a>
+          <a href="http://www.pmk.ac.th/index.php" target="_blank">
+            <img src="img/clients/15.jpg" alt="" height="200">
+          </a>
+
         </div>
 
       </div>
