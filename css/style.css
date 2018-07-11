@@ -134,7 +134,7 @@ body {
     background: #fff;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
-    font-size: 14px;
+    font-size: 15px;
   }
   
   #topbar .contact-info a {
@@ -506,6 +506,10 @@ body {
   cursor: pointer;
   color: #000;
 }
+#mobile-nav ul .menu-has-children i:hover {
+  color: #df176f;
+ 
+}
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
   color: #df176f;
@@ -525,6 +529,14 @@ body {
   background: rgba(221, 221, 221, 0.5);
   display: none;
 }
+.nav-logo a{
+  color: rgb(41, 41, 41) !important;
+}
+.inline { 
+  display: inline-block;
+  margin-right: 8px;
+
+  }
 
 /* Mobile Nav body classes */
 body.mobile-nav-active {

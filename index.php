@@ -153,7 +153,7 @@ require_once "admin/function.php";
                   <span> info@happyhospital.org </span>
                   <span> l </span>โทร:
                   <span>02- 973-2236 </span>ต่อ
-                  <span>103, 085-1966102</span>
+                  <span>1606, 085-1966102</span>
                 </p>
               </td>
             </tr>
@@ -354,7 +354,7 @@ require_once "admin/function.php";
         <img src="img/clients/1.jpg" alt="" height="200"></a>
         <a href="https://med.mahidol.ac.th/rama_hospital/" target="_blank">
         <img src="img/clients/2.jpg"alt="" height="200"></a>
-        <a href="http://www.pmk.ac.th/index.php" target="_blank">
+        <a href="http://pcmc.swu.ac.th/" target="_blank">
         <img src="img/clients/3.jpg" alt="" height="200" ></a>
         <a href="http://pcmc.swu.ac.th/" target="_blank">
         <img src="img/clients/4.jpg"alt="" height="200"></a>
@@ -378,6 +378,8 @@ require_once "admin/function.php";
         <img src="img/clients/13.jpg"alt="" height="200"></a>
         <a href="https://www.jitarsabank.com/org/profile/14?page=2" target="_blank">
         <img src="img/clients/14.jpg"alt="" height="200"></a>
+        <a href="http://www.pmk.ac.th/index.php" target="_blank">
+        <img src="img/clients/15.jpg"alt="" height="200"></a>
           
         </div>
 
