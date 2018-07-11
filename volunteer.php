@@ -319,7 +319,6 @@
       <div class="container">
         <div class="section-header">
           <h2>ตารางกิจกรรม วัน - เวลา ที่ลงพื้นที่</h2>
-          <p style="text-indent: 30px">หากอาสาสมัคร มีความชำนาญในการทำกิจกรรม อส. ใน รพ. สามารถลงพื้นที่ได้ที่ </p>
         </div>
         <div>
           <table class="table table-respontive">
@@ -329,14 +328,24 @@
               <th class="text-center">เวลา</th>
             </tr>
             <tr>
+              <td>โรงพยาบาลภูมิพลอดุลยเดช</td>
+              <td class="text-center">วันอังคาร</td>
+              <td class="text-center">10.00 - 12.00 น.</td>
+            </tr>
+            <tr>
+              <td>โรงพยาบาลราชวิถี</td>
+              <td class="text-center">วันพุธ</td>
+              <td class="text-center">09.00 - 12.00 น.</td>
+            </tr>
+            <tr>
               <td>โรงพยาบาลรามาธิบดี</td>
-              <td class="text-center">ทุกวันพุธ</td>
+              <td class="text-center">วันพุธ</td>
               <td class="text-center">13.00 - 15.00 น.</td>
             </tr>
             <tr>
-              <td>โรงพยาบาลพระมงกฏเกล้า</td>
-              <td class="text-center">ทุกวันศุกร์</td>
-              <td class="text-center">09.00 - 12.00 น.</td>
+              <td>โรงพยาบาลพระมงกุฎเกล้า</td>
+              <td class="text-center">วันศุกร์</td>
+              <td class="text-center">9.00 - 12.00 น.</td>
             </tr>
             <tr>
               <td colspan="3">
