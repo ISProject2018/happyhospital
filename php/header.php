@@ -1,16 +1,16 @@
 <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i>
+      <div class="contact-info float-left social-links">
+      <img src="img/letter.png" alt="" height="25" width="25" style="margin-top: -6px;margin-right: 5px;">
         <a href="mailto:info@happyhospital.org">info@happyhospital.org</a>
-        <i class="fa fa-phone"></i> 085-1966102
+        <img src="img/phone.png" alt="" height="25" width="25" style="margin-top: -6px;margin-left: 15px;margin-right: 5px;"> <a>085-1966102</a>
       </div>
       <div class="social-links float-right">
         <a href="https://www.facebook.com/happyhospitalMR/" class="facebook" target="_blank">
-          <i class="fa fa-facebook"> : โครงการโรงพยาบาลมีสุข มูลนิธิกระจกเงา </i>
+        <img src="img/facebook.png" alt="" height="25" width="25" style="margin-top: -6px;margin-right: 5px;">  โครงการโรงพยาบาลมีสุข มูลนิธิกระจกเงา 
         </a>
         <a>
-          <img src="img/line.png" alt="" height="25" width="25" style="margin-top: -6px;"> : 0851966102
+          <img src="img/line.png" alt="" height="25" width="25" style="margin-top: -6px;"> ID : 0851966102
           </a>
       </div>
     </div>

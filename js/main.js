@@ -50,9 +50,10 @@ jQuery(document).ready(function ($) {
     $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>');
     $('body').append('<div id="mobile-body-overly"></div>');
     $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
-    $('#mobile-nav').find('.nav-logo').prepend('<a href="https://www.facebook.com/happyhospitalMR/" class="facebook pl-3 py-3" target="_blank"><i class="fa fa-facebook text-dark"> : โครงการโรงพยาบาลมีสุข <br> มูลนิธิกระจกเงา </i></a>');
-    $('#mobile-nav').find('.nav-logo').prepend('<i class="fa fa-phone pl-3 py-3 "></i>: 085-1966102 <br> <hr>');
-    $('#mobile-nav').find('.nav-logo').prepend('<hr> <i class="fa fa-envelope-o pl-3 py-3 "></i><a href="mailto:info@happyhospital.org" class="text-dark">: info@happyhospital.org</a> <br> <hr>');
+    $('#mobile-nav').find('.nav-logo').prepend('<img src="img/line.png" alt="" height="25" width="25" style="margin-top: -6px;margin-left: 15px;"> <a>ID : 0851966102</a>');
+    $('#mobile-nav').find('.nav-logo').prepend('<div class="inline"><img src="img/facebook.png" alt="" height="25" width="25" style="margin-top: -30px;margin-right: 5px;margin-left: 15px;"></div><div class="inline"><a href="https://www.facebook.com/happyhospitalMR/"  target="_blank"> โครงการโรงพยาบาลมีสุข <br> มูลนิธิกระจกเงา</a></div> <br> <hr>');
+    $('#mobile-nav').find('.nav-logo').prepend('<img src="img/phone.png" alt="" height="25" width="25" style="margin-top: -6px;margin-left: 15px;margin-right: 5px;"> <a>085-1966102</a> <br> <hr>');
+    $('#mobile-nav').find('.nav-logo').prepend('<hr> <img src="img/letter.png" alt="" height="25" width="25" style="margin-top: -6px;margin-right: 5px;margin-left: 15px;"><a href="mailto:info@happyhospital.org" class="text-dark"> info@happyhospital.org</a> <br> <hr>');
 
     $(document).on('click', '.menu-has-children i', function (e) {
       $(this).next().toggleClass('menu-item-active');
