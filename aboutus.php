@@ -68,8 +68,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 property-img">
-                        <a href="img/aboutus/about_2.JPG" class="property-popup">
-                        <img src="img/aboutus/about_2.JPG" alt="" height="350">
+                        <a href="img/aboutus/about2.jpg" class="property-popup">
+                        <img src="img/aboutus/about2.jpg" alt="" height="350">
                         </a>
                     </div>
 
@@ -105,8 +105,8 @@
                             นันทนาการและการทำกลุ่มผู้ปกครองจึงมีการทำไม่สม่ำเสมอในบางหอผู้ป่วยและบาง หอผู้ป่วยก็ไม่มีกิจกรรมเหล่านี้เลย</p>
                     </div>
                     <div class="col-lg-6 property-img">
-                        <a href="img/aboutus/about_1.JPG" class="property-popup">
-                        <img src="img/aboutus/about_1.jpg" alt="" height="320" width="500" class="ml-3" >
+                        <a href="img/aboutus/about1.jpg" class="property-popup">
+                        <img src="img/aboutus/about1.jpg" alt="" height="320" width="500" class="ml-3" >
                         </a>
                     </div>
                 </div>
@@ -122,8 +122,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 property-img">
-                        <a href="img/aboutus/about_4.JPG" class="property-popup">
-                        <img src="img/aboutus/about_4.JPG" alt="" height="360" width="520">
+                        <a href="img/aboutus/about4.jpg" class="property-popup">
+                        <img src="img/aboutus/about4.jpg" alt="" height="360" width="520">
                         </a>
                     </div>
                     <div class="col-lg-6 content">
@@ -162,8 +162,8 @@
                             อาสาเข้ามาทำงานในโรงพยาบาลหรือสถานีอนามัยในสังกัด เรียกว่า “อาสาสมัครในโรงพยาบาล (อส.รพ.)”</p>
                     </div>
                     <div class="col-lg-6 property-img">
-                        <a href="img/aboutus/about_3.JPG" class="property-popup">
-                        <img src="img/aboutus/about_3.JPG" alt="" height="310" width="500" class="ml-3">
+                        <a href="img/aboutus/about3.jpg" class="property-popup">
+                        <img src="img/aboutus/about3.jpg" alt="" height="310" width="500" class="ml-3">
                         </a>
                     </div>
 
@@ -180,8 +180,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 property-img">
-                        <a href="img/aboutus/about_6.JPG" class="property-popup">
-                        <img src="img/aboutus/about_6.jpg" alt="" height="340">
+                        <a href="img/aboutus/about6.jpg" class="property-popup">
+                        <img src="img/aboutus/about6.jpg" alt="" height="340">
                         </a>
                     </div>
 

@@ -104,8 +104,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/volunteer/(2).JPG" class="portfolio-popup">
-                <img src="img/volunteer/(2).JPG" alt="">
+              <a href="img/volunteer/(2).jpg" class="portfolio-popup">
+                <img src="img/volunteer/(2).jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
                     <h2 class="wow fadeInUp"></h2>
@@ -117,8 +117,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="img/volunteer/(3).JPG" class="portfolio-popup">
-                <img src="img/volunteer/(3).JPG" alt="">
+              <a href="img/volunteer/(3).jpg" class="portfolio-popup">
+                <img src="img/volunteer/(3).jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
                     <h2 class="wow fadeInUp"></h2>
@@ -321,7 +321,7 @@
           <h2>ตารางกิจกรรม วัน - เวลา ที่ลงพื้นที่</h2>
         </div>
         <div>
-          <table class="table table-respontive">
+        <table class="table table-respontive">
             <tr>
               <th>สถานที่ทำงาน</th>
               <th class="text-center">วัน</th>
@@ -329,23 +329,23 @@
             </tr>
             <tr>
               <td>โรงพยาบาลภูมิพลอดุลยเดช</td>
-              <td class="text-center">วันอังคาร</td>
+              <td class="text-center">ทุกวันอังคาร</td>
               <td class="text-center">10.00 - 12.00 น.</td>
             </tr>
             <tr>
               <td>โรงพยาบาลราชวิถี</td>
-              <td class="text-center">วันพุธ</td>
+              <td class="text-center">ทุกวันพุธ</td>
               <td class="text-center">09.00 - 12.00 น.</td>
             </tr>
             <tr>
               <td>โรงพยาบาลรามาธิบดี</td>
-              <td class="text-center">วันพุธ</td>
+              <td class="text-center">ทุกวันพุธ</td>
               <td class="text-center">13.00 - 15.00 น.</td>
             </tr>
             <tr>
-              <td>โรงพยาบาลพระมงกุฎเกล้า</td>
-              <td class="text-center">วันศุกร์</td>
-              <td class="text-center">9.00 - 12.00 น.</td>
+              <td>โรงพยาบาลพระมงกฏเกล้า</td>
+              <td class="text-center">ทุกวันศุกร์</td>
+              <td class="text-center">09.00 - 12.00 น.</td>
             </tr>
             <tr>
               <td colspan="3">
@@ -354,9 +354,8 @@
                   <span> l </span> E-mail :
                   <span> info@happyhospital.org </span>
                   <span> l </span>โทร:
-                  <span>02- 973-2236 </span> ต่อ
-                  <span> 103 </span>,
-                  <span> 085-1966102</span>
+                  <span>02- 973-2236 </span>ต่อ
+                  <span>1606, 085-1966102</span>
                 </p>
               </td>
             </tr>

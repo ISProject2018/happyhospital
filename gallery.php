@@ -7,10 +7,11 @@ require_once "admin/Paginator.class.php";
 $limit      = ( isset( $_GET['limit'] ) ) ? $_GET['limit'] : 6;
 $page       = ( isset( $_GET['page'] ) ) ? $_GET['page'] : 1;
 $links      = ( isset( $_GET['links'] ) ) ? $_GET['links'] : 7;
-$query      = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.PicName , autopage4_detail_topic.Date_up ";
+$query      = "SELECT autopage4_data_topic.IdTopic , autopage4_data_topic.TopicName , autopage4_detail_topic.PicName , autopage4_detail_topic.Date_up , autopage4_detail_topic.VdoGet ";
 $query      .= "FROM autopage4_data_topic , autopage4_detail_topic ";
-$query      .= "WHERE autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic AND autopage4_data_topic.IdAuto = 36 ORDER by IdTopic DESC";
+$query      .= "WHERE autopage4_data_topic.IdTopic = autopage4_detail_topic.IdTopic AND autopage4_data_topic.IdAuto = 36  AND StShow = '1' ORDER BY `autopage4_data_topic`.`NoShow` Desc";
 
+#echo $query; 
 $Paginator  = new Paginator( $connection, $query );
 
 $results    = $Paginator->getData($limit, $page);
@@ -81,8 +82,13 @@ $results    = $Paginator->getData($limit, $page);
                         <div class="tab-content">
                             <div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
                                 <!-- Post Thumbnail -->
-                                <div class="post-thumbnail">
-                                    <img src="autopagev4/picture/<?echo $results->data[$i]['PicName'];?>" alt="">
+                                <div class="post-thumbnail"> 
+                                <? if($results->data[$i]['PicName']&&$results->data[$i]['PicName']!='spacer.gif') { ?>
+                                <a href="showpost_detail.php?IdTopic=<? echo $results->data[$i]['IdTopic'];?>" target="_blank"><img src="http://www.happyhospital.org/autopagev4/picture/<? echo $results->data[$i]['PicName'];?>" alt=""></a>
+                                <? }//end if($results->data[$i]['PicName']) { 
+								 if($results->data[$i]['VdoGet']) {
+									echo '<iframe allow="autoplay; encrypted-media" allowfullscreen="" width="100%" height="300px" frameborder="0" src="'.$results->data[$i]['VdoGet'].'"></iframe>';
+								}?>
                                 </div>
                             </div>
                         </div>

@@ -76,10 +76,10 @@ $results    = $Paginator->getData($limit, $page);
                 <div class="col-md-6 col-12 pt-3">
                     <div class="card">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-md-2 col-3">
                                 <img src="img/topic.jpg" alt="" height="100">
                             </div>
-                            <div class="col-10">
+                            <div class="col-md-10 col-8">
                                 <div class="card-body">
                                     <a href="showpost_detail.php?IdTopic=<?echo ThaiIToUTF8($results->data[$i]['IdTopic']);?>" target="_blank">
                                         <h5 class="card-text">
